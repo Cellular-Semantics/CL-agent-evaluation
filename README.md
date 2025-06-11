@@ -30,6 +30,28 @@ This project explores multiple workflows for generating structured biological in
 
 ## Setup & Installation
 
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Cellular-Semantics/CL-agent-evaluation.git
+    cd CL-agent-evaluation
+    ```
+
+2.  **Set up Environment Variables:**
+    Create a `.env` file in the project root or export the variables directly in your terminal. For example:
+    ```bash
+    export OPENAI_API_KEY="sk-..."
+    export PPLX_API_KEY="pplx-..."
+    export BIOPORTAL_API_KEY="4911280b-..."
+    ```
+
+
+3.  **Install Dependencies:**
+    Poetry will create a virtual environment and install all necessary packages from the `pyproject.toml` file.
+    ```bash
+    poetry install
+    ```
+
+
 ## Usage: Experimental Workflows
 
 All commands should be run from the root directory of the project.
