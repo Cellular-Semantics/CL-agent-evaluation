@@ -1,0 +1,63 @@
+[
+    {
+      "id": "negative_case_01",
+      "term": "Alveolar Adventitial Fibroblast",
+      "type": "negative",
+      "description": "The alveolar type 2 fibroblast cell, also known as AT2 cells, are specialized cells predominantly found in the alveolar lining of the lungs. Functionally, these cells play a dual role in maintaining lung homeostasis; they carry out the biomechanical regulation of the lungs and are active participants in the synthesis and secretion of surfactant, a substance essential for lung function. AT2 cells maintain elasticity and integrity of the lung tissue along with alveolar type 1 cells. Known for their distinctive cuboidal shape, they possess lamellar bodies in their cytoplasm which store and secrete pulmonary surfactant - a complex mixture of proteins and lipids. This surfactant reduces surface tension in alveoli and prevents their collapse, enabling efficient gas exchange process. Additionally, AT2 cells exhibit regenerative properties and serve as progenitor cells for the alveolar epithelium. In the event of lung injury, they proliferate and differentiate to restore the damaged epithelium, including the regeneration of type 1 cells. Recent research also indicates that AT2 cells are crucial in immune responses pertaining to the lung, contributing to defense against pathogens and mitigating inflammation. It's important to note that the dysfunction or abnormal conditions in AT2 cells are associated with several pulmonary diseases, including pulmonary fibrosis, acute lung injury, and lung cancer.", 
+      "ground_truth_references": [
+        "https://doi.org/10.1165/rcmb.2016-0426PS",
+        "https://doi.org/10.1038/s41420-019-0147-9",
+        "https://doi.org/10.3390/ijms22052566",
+        "https://doi.org/10.1038/s41556-021-00809-4",
+        "https://doi.org/10.1038/s41598-018-30234-x"
+      ]
+    },
+    {
+      "id": "negative_case_02",
+      "term": "Cardiac Muscle Myoblast",
+      "type": "negative",
+      "description": "Cardiac muscle myoblasts play a vital role in the development of the heart muscle, particularly in the ventricular and atrial myocardium. Originating from cardiac progenitor cells, they exhibit an elongated morphology and express specific transcription factors and proteins like Nkx2.5, Gata4, and Mef2c.  The primary function of cardiac muscle myoblasts is to participate in myogenesis. Responding to regulatory signals, these myoblasts undergo proliferation, alignment, and fusion, giving rise to multinucleated, striated myotubes. These myotubes then differentiate into functional cardiomyocytes, forming the muscular walls of the heart.", 
+      "ground_truth_references": [
+        "https://doi.org/10.3390/cells8121536",
+        "https://www.sciencedirect.com/topics/neuroscience/myoblast",
+        "https://www.sciencedirect.com/topics/medicine-and-dentistry/cardiac-myoblast"
+      ]
+    },
+    {
+      "id": "positive_case_01",
+      "term": "Alveolar Macrophage",
+      "type": "positive",
+      "description": "Alveolar macrophages are unique tissue-resident macrophages found in the lungs, specifically in the air sacs or alveoli where gas exchange occurs. They are characterized by specific surface markers including: F4/80-positive, CD11b-/low, CD11c-positive, CD68-positive, sialoadhesin-positive, dectin-1-positive, MR-positive, CX3CR1-negative. These specialized immune cells form a crucial part of the body's defense mechanism, playing important roles in pulmonary health and homeostasis. They are the first line of defense in the pulmonary immune response, acting as scavengers that patrol the alveoli and engulf foreign particles like bacteria, dust, and other debris that enter the lungs through inhalation. The primary function of these alveolar macrophages is phagocytosis, whereby they consume and digest foreign substances, dead cells, and other particulates. In the lung, alveolar macrophages are also responsible for clearing surfactant. Additionally, alveolar macrophages also play an integral role in initiating the immune response, as they secrete several pro-inflammatory cytokines and chemokines that recruit other immune cells to the site of infection or inflammation. Beyond their role in host defense, alveolar macrophages contribute to tissue remodeling and wound repair in the lungs, aiding in maintaining lung integrity. They also regulate local inflammation and control the immune response to prevent excessive inflammation that may be harmful. However, an imbalance in the function of alveolar macrophages can contribute to various lung diseases. Abnormal alveolar macrophage activation has been implicated in chronic inflammatory diseases such as emphysema, asthma, and fibrosis.",
+      "ground_truth_references": [
+        "https://doi.org/10.1016/j.cellimm.2018.01.005",
+        "https://doi.org/10.1038/nri3600",
+        "https://doi.org/10.14348/molcells.2021.0058",
+        "https://doi.org/10.1007/s00424-017-1965-3"
+      ]
+    },
+    {
+      "id": "positive_case_02",
+      "term": "Epithelial Cell Of Nephron",
+      "type": "positive",
+      "description": "Epithelial cells of the nephron form the epithelial lining of the nephron, the functional unit of the kidney that filters the blood to produce urine. Each kidney holds approximately one million nephrons, each of which is composed of several distinct parts, including the renal corpuscle, the proximal tubule, the loop of Henle, and the distal tubule. All sections are lined with highly specialized epithelial cells adapted to perform different functions within the sections of the nephron. The different epithelial cells of the nephron play crucial roles in the process of filtration, reabsorption, secretion, and excretion, essential tasks for the regulation of body fluid composition and volume. During filtration, the blood is forced through the walls of glomerular capillaries into the Bowman's capsule, where waste products, electrolytes, and water are separated from the blood cells and proteins. As the filtrate then passes through the nephron, epithelial cells of the tubular portion reabsorb useful substances such as glucose, amino acids, and electrolytes, along with most of the water back into the bloodstream. Waste products like urea and creatinine, as well as excess ions and water, remain in the tubule for elimination. In addition, epithelial cells of the nephron also play a vital part in maintaining the body's acid-base balance by actively secreting hydrogen ions into the urine while reabsorbing bicarbonate from the urine back into the blood. They are also involved in the regulation of blood pressure through the renin-angiotensin-aldosterone system and contribute to erythrocyte production by releasing the hormone erythropoietin in response to low oxygen levels in the blood. Abnormalities or damage in renal epithelial cells often result in impaired kidney function, leading to various renal diseases.",
+      "ground_truth_references": [
+        "https://doi.org/10.1146/annurev-physiol-052521-121841",
+        "https://doi.org/10.1007/978-94-011-2354-9_6",
+        "https://doi.org/10.1016/B978-0-323-35775-3.00011-4",
+        "https://doi.org/10.1007/s004670050586",
+        "https://doi.org/10.1681/ASN.2012010029"
+      ]
+    },
+    {
+      "id": "positive_case_03",
+      "term": "Intestinal Tuft Cell",
+      "type": "positive",
+      "description": "Intestinal tuft cells, also known as brush cells, are specialized epithelial cells found in the lining of the intestines. Their name stems from their distinctive morphology, characterized by a thick ‘tuft’, or brush-like, peak of long, tapering microvilli which project into the intestinal lumen. These cells impart a structural characteristic to the epithelium of the intestine, aiding in its function and interaction with the surrounding environment. Their abundance among the gastrointestinal tract varies but they are most commonly found in the small intestine. The primary function of intestinal tuft cells is to act as chemosensory sentinels, assisting in monitoring and responding to luminal factors. They possess a highly potent sensing mechanism, facilitated by a diverse set of receptors, such as the bitter taste receptor family and succinate receptor, and a complex signaling apparatus. These sensory capabilities enable them to initiate crucial immune responses to a variety of physiological stimuli, including parasites and bacteria. Evidence suggests that tuft cells perform a critical role in maintaining gut homeostasis and in initiating type 2 immunity against parasite infection. Moreover, intestinal tuft cells are also involved in regulating intestinal epithelial cell homeostasis and contributing to the regeneration and repair of epithelial tissue following damage. They produce several growth factors and cytokines which play essential roles in these processes. Despite being one of the least common cell types in the gut, the role of tuft cells in sensing, immunity and tissue regulation underlines their importance in maintaining gastrointestinal health.",
+      "ground_truth_references": [
+        "https://doi.org/10.1371/journal.ppat.1010318",
+        "https://doi.org/10.3389/fimmu.2022.822867",
+        "https://doi.org/10.4049/jimmunol.1801069",
+        "https://doi.org/10.1038/nature24489"
+      ]
+    }
+]
