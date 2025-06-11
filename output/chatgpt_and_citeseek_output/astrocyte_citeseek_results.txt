@@ -1,0 +1,241 @@
+--- CiteSeek Results for astrocyte_statements.yaml ---
+
+--- Results for assertion1 ---
+Assertion: Astrocytes are found primarily in the mammalian central nervous system.
+
+CiteSeek Output:
+- reference: PMID:23827784
+  supports: SUPPORT
+  snippet: In the mammalian central nervous system, astrocytes are the most abundant
+    cell type.
+  explanation: The text explicitly states that astrocytes are abundant in the mammalian
+    CNS, supporting the statement.
+- reference: PMID:40122619
+  supports: SUPPORT
+  snippet: Astroglia represent an extended class of homeostatic glial cells, which
+    include astrocytes, in the central nervous system.
+  explanation: The literature confirms that astrocytes, a type of astroglia, are present
+    in the central nervous system.
+- reference: PMID:28467650
+  supports: SUPPORT
+  snippet: Astrocytes are glial cells that are distributed throughout the central
+    nervous system.
+  explanation: This supports the statement by specifying the distribution of astrocytes
+    in the CNS.
+- reference: PMID:31050045
+  supports: SUPPORT
+  snippet: A class of glial cell, astrocytes, is highly abundant in the central nervous
+    system (CNS).
+  explanation: Astrocytes are described as a primary component of the CNS, confirming
+    their presence there.
+- reference: PMID:39982817
+  supports: SUPPORT
+  snippet: Astrocytes are a highly abundant glial cell type and perform critical homeostatic
+    functions in the central nervous system.
+  explanation: The text specifies that astrocytes are abundant and essential in the
+    CNS, which supports the statement.
+- reference: PMID:38180380
+  supports: SUPPORT
+  snippet: Astrocytes are predominant glial cells that tile the central nervous system
+    (CNS).
+  explanation: The predominance of astrocytes in the CNS is clearly stated in the
+    text.
+
+
+
+--- Results for assertion2 ---
+Assertion: Astrocytes are distinguished by a star-shaped morphology.
+
+CiteSeek Output:
+- reference: PMID:38180380
+  supports: SUPPORT
+  snippet: Astrocytes are predominant glial cells that tile the central nervous system
+    (CNS). A cardinal feature of astrocytes is their complex and visually enchanting
+    morphology, referred to as bushy, spongy, and star-like.
+  explanation: The abstract describes the star-shaped or star-like morphology as a
+    characteristic feature of astrocytes, thus supporting the statement.
+
+
+
+--- Results for assertion3 ---
+Assertion: Astrocytes have molecular markers including GFAP, a filament protein specific to mature astrocytes, and S100B, a protein found predominantly in astrocytes within the brain.
+
+CiteSeek Output:
+- reference: PMID:21219963
+  supports: PARTIAL
+  snippet: Glial fibrillary acidic protein (GFAP) is the main intermediate filament
+    protein in mature astrocytes.
+  explanation: The literature confirms that GFAP is a key intermediate filament protein
+    in mature astrocytes but does not specify that it is exclusive to astrocytes.
+    S100B is mentioned in another study which does not find it specific to astrocytes.
+- reference: PMID:34615523
+  supports: REFUTE
+  snippet: S100B is not a specific marker for astrocyte lineage; instead, it marks
+    protoplasmic astrocytes in the gray matter and differentiating oligodendrocytes.
+  explanation: This study finds that S100B is not specific to astrocytes, as it is
+    also expressed in oligodendrocytes, refuting the statement that it is predominantly
+    found in astrocytes.
+- reference: PMID:19559073
+  supports: PARTIAL
+  snippet: GFAP and S100beta are two commonly used astrocyte markers.
+  explanation: While GFAP is used as a specific marker for astrocytes, the statement
+    doesn't clearly address S100B's specificity to astrocytes, just noting its use
+    as a marker.
+- reference: PMID:34021122
+  supports: WRONG_STATEMENT
+  snippet: Glial fibrillary acidic protein (GFAP) and calcium-binding protein S100B
+    are considered microglial markers.
+  explanation: This study considers GFAP and S100B as markers related to microglia,
+    contradicting the claim that they are exclusive or primarily specific to astrocytes.
+
+
+
+--- Results for assertion4 ---
+Assertion: The capacity for calcium signaling is a key component of astrocytes.
+
+CiteSeek Output:
+- reference: PMID:11414278
+  supports: SUPPORT
+  snippet: One prominent mode by which astrocytes regulate their own activity and
+    influence neuronal behavior is via Ca2+ signals, which may be restricted within
+    one cell or be transmitted throughout the interconnected syncytium through the
+    propagation of intercellular calcium waves.
+  explanation: This reference supports the statement by highlighting that calcium
+    signaling is an important way through which astrocytes communicate and influence
+    neuronal functions.
+- reference: PMID:31624352
+  supports: SUPPORT
+  snippet: ablation of Kidins220 in primary cultured astrocytes induced defects in
+    calcium (Ca(2+)) signaling that were linked to altered store-operated Ca(2+) entry
+  explanation: Astrocyte calcium signaling is described as crucial in the regulation
+    of glial Ca(2+) dynamics and neuron-astrocyte communication.
+- reference: PMID:33903221
+  supports: SUPPORT
+  snippet: astrocytes affect neural circuits and behavior through intracellular Ca(2+)
+    signaling.
+  explanation: This reference states that astrocytes impact neural circuits using
+    Ca(2+) signaling, thereby supporting its key role.
+- reference: PMID:39019040
+  supports: SUPPORT
+  snippet: Astrocyte calcium plays a crucial role.
+  explanation: The crucial role of calcium signaling in astrocytes is emphasized,
+    aligning with the statement.
+
+
+
+--- Results for assertion5 ---
+Assertion: Astrocytes facilitate various functions such as modulation of synaptic transmission, blood-brain barrier maintenance, and regulation of brain metabolism.
+
+CiteSeek Output:
+- reference: PMID:36193573
+  supports: SUPPORT
+  snippet: Astrocytes have many important functions in the central nervous system
+    (CNS), including the maintenance of glutamate and ion homeostasis... and facilitating
+    information transmission of neurons.
+- reference: PMID:31919423
+  supports: SUPPORT
+  snippet: Astrocytes provide neurons with essential metabolic and structural support,
+    modulate neuronal circuit activity...
+- reference: PMID:32955153
+  supports: SUPPORT
+  snippet: astrocytes contribute a nonredundant and necessary function in maintaining
+    the adult BBB.
+- reference: PMID:31991879
+  supports: SUPPORT
+  snippet: Astrocytes have emerged as regulators of synaptic development and function.
+    With their highly complex morphologies, they are able to interact with thousands
+    of synapses via peripheral astrocytic processes (PAPs), ensheathing neuronal axons
+    and dendrites to form the tripartite synapse.
+- reference: PMID:38773875
+  supports: SUPPORT
+  snippet: Astrocytes provide structural, metabolic, ionic, and extracellular matrix
+    (ECM) support across the brain.
+- reference: PMID:34292315
+  supports: SUPPORT
+  snippet: Astrocytes are abundant glial cells in the central nervous system (CNS)
+    that control multiple aspects of health and disease. Through their interactions
+    with components of the blood-brain barrier (BBB), astrocytes not only regulate
+    BBB function...
+
+
+
+--- Results for assertion6 ---
+Assertion: Astrocytes play essential roles in neurogenesis and neuronal survival in response to injuries.
+
+CiteSeek Output:
+- reference: PMID:12571445
+  supports: SUPPORT
+  snippet: Astrocytes are the most numerous cell type in the central nervous system.
+    They provide structural, trophic, and metabolic support to neurons and modulate
+    synaptic activity. Accordingly, impairment in these astrocyte functions during
+    brain ischemia and other insults can critically influence neuron survival.
+  explanation: The abstract highlights the role of astrocytes in neuronal survival,
+    particularly after injury.
+- reference: PMID:40052673
+  supports: SUPPORT
+  snippet: Upon damage, glial cells activate an immune and inflammatory response to
+    clear the injury site from debris and proliferate to restore cell number... Additionally,
+    we found that NG cells undergo transdifferentiation to yield neurons.
+  explanation: Supports the role of astrocytes (as they are equivalent to neuropil-associated
+    glia in this context) in responding to injury and contributing to neurogenesis.
+- reference: PMID:30617970
+  supports: SUPPORT
+  snippet: Astrocytes, major components of the adult neurogenic niches, are evolving
+    as important regulators of neurogenesis, by controlling NSC proliferation, fate
+    choice, and differentiation of the progeny.
+  explanation: Directly states that astrocytes are crucial in the regulation of neurogenesis.
+- reference: PMID:34203960
+  supports: SUPPORT
+  snippet: Multiple studies have suggested that astrocytes play a key role in the
+    pathogenesis of TBI. Increased reactive astrocytes and astrocyte-derived factors
+    are commonly observed... including promotion and restriction of neurogenesis.
+  explanation: Astrocytes have both promoting and inhibitory roles in neurogenesis
+    within the context of traumatic brain injuries.
+- reference: PMID:27365123
+  supports: SUPPORT
+  snippet: Astrocytes play a key role in providing antioxidant support to nearby neurons...
+    distinct homeostatic mechanisms in neurons and astrocytes together combine to
+    promote neuronal resistance to oxidative insults.
+  explanation: Describes astrocyte roles that enhance neuron survival through antioxidative
+    support.
+
+
+
+--- Results for assertion7 ---
+Assertion: The development and diversification of astrocytes are largely influenced by transcription factors like NFIA and STAT3.
+
+CiteSeek Output:
+- reference: PMID:30290178
+  supports: SUPPORT
+  snippet: we identified NFIA and ATF3 as drivers of astrocyte differentiation from
+    neural precursor cells while RUNX2 promotes astrocyte maturation.
+  explanation: The study identifies NFIA as a driver of astrocyte differentiation,
+    supporting the role of NFIA in astrocyte development.
+- reference: PMID:24466267
+  supports: SUPPORT
+  snippet: STAT3 is necessary and sufficient for astrocyte differentiation whereas
+    STAT1 is dispensable.
+  explanation: The study confirms that STAT3 is essential for astrocyte differentiation,
+    supporting its influential role in the development of astrocytes.
+- reference: PMID:30005139
+  supports: SUPPORT
+  snippet: RNA sequencing analyses have shown that... astrocytic genes Gfap, Slc1a3,
+    and S100a16 were also upregulated...with VC treatment. Consistently, enhanced
+    GFAP+ astrocytic yields were manifested...
+  explanation: STAT3 is mentioned as a key transcription factor in astrocytogenesis,
+    supporting its role in astrocyte development.
+- reference: PMID:31847709
+  supports: SUPPORT
+  snippet: In astrocyte patterning, VA1-VA3 domains create the astrocyte subtypes
+    by differential expression of Slit1 and Reelin in the spinal cord.
+  explanation: The review mentions transcription factors and pathways governing astrocyte
+    specification, including those involving STAT pathway, supporting their significance
+    in astrocyte development and diversification.
+- reference: PMID:37880726
+  supports: PARTIAL
+  snippet: NFIA may regulate astrocyte diversity in the adult brain.
+  explanation: The study associates NFIA with astrocyte diversity in certain pathological
+    conditions, partially supporting its role in diversification.
+
+
+

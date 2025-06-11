@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cl-agent-evaluation"
+version = "0.1.0"
+description = "Experiments with agentic AIs for automating cell ontology."
+authors = ["Caroline Eastwood <ce12@sanger.ac.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9, !=3.9.7, <3.13"
+ontogpt = "^1.0.14"
+curategpt = {extras = ["all"], version = "^0.2.3"}
+psutil = "^7.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

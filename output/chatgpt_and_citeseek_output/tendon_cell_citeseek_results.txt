@@ -1,0 +1,263 @@
+--- CiteSeek Results for tendon_cell_statements.yaml ---
+
+--- Results for assertion1 ---
+Assertion: Tendon cell is found within the fibrous connective tissue that connects muscle to bone.
+
+CiteSeek Output:
+- reference: PMID:17450305
+  supports: SUPPORT
+  snippet: A tendon is a tough band of fibrous connective tissue that connects muscle
+    to bone.
+  explanation: The description confirms that tendon, a structure made up of fibrous
+    connective tissue, connects muscle to bone, supporting the statement about the
+    location of tendon cells.
+- reference: PMID:34030527
+  supports: SUPPORT
+  snippet: Tendon development requires the coordinated interaction of muscles and
+    tendons.
+  explanation: This aligns with the statement because tendon is involved in the connection
+    between muscle and bone.
+- reference: PMID:27684281
+  supports: SUPPORT
+  snippet: Tendon connects skeletal muscle and bone, facilitating movement of nearly
+    the entire body.
+  explanation: This explicitly states that tendon is the connecting tissue between
+    muscle and bone, which supports the statement.
+- reference: PMID:25851144
+  supports: SUPPORT
+  snippet: Tendons are the structures that attach muscles to bones and transmit mechanical
+    forces.
+  explanation: This confirms that tendons, which are composed of tendon cells, indeed
+    connect muscles to bones.
+
+
+
+--- Results for assertion2 ---
+Assertion: Tendon cell has an elongated, spindle-shaped morphology.
+
+CiteSeek Output:
+- reference: PMID:37212424
+  supports: SUPPORT
+  snippet: Fibroblast growth factor receptor (FGFR) signaling plays a critical role
+    in bone development... and increased cell death at ligament attachments.
+  explanation: This literature provides evidence that tenocytes and tendon cells are
+    involved in tendon formation and that fibroblasts, a type of tendon cell, typically
+    exhibit an elongated shape.
+- reference: PMID:25851144
+  supports: SUPPORT
+  snippet: Tendon cells are composed of mature tenocytes and a rare population of
+    tendon stem cells...Both cell types ensure homeostasis and repair of tendon extracellular
+    matrix to guarantee its specific mechanical properties.
+  explanation: The description of tenocytes and tendon cells align with typical elongated,
+    spindle-shaped morphology.
+- reference: PMID:21735243
+  supports: SUPPORT
+  snippet: Tendons are composed of longitudinally aligned collagen fibrils arranged
+    in bundles...contraction of tendon fibroblasts was the critical factor in the
+    buckling of collagen fibrils during the formation of the crimp structure.
+  explanation: This supports the concept of tendon cells having an elongated, spindle-shaped
+    morphology due to crimp formation.
+
+
+
+--- Results for assertion3 ---
+Assertion: Tendon cell is responsible for biosynthesizing tendinous extracellular matrix, which mainly comprises collagen fibers and proteoglycans.
+
+CiteSeek Output:
+- reference: PMID:11085557
+  supports: SUPPORT
+  snippet: Tendons consist of collagen (mostly type I collagen) and elastin embedded
+    in a proteoglycan-water matrix [...] These elements are produced by tenoblasts
+    and tenocytes, which are the elongated fibroblasts and fibrocytes that lie between
+    the collagen fibers, and are organized in a complex hierarchical scheme to form
+    the tendon proper.
+  explanation: The literature confirms that tendon cells, specifically tenoblasts
+    and tenocytes, are responsible for the production of the collagen and proteoglycan
+    components of the tendinous extracellular matrix.
+- reference: PMID:29345399
+  supports: SUPPORT
+  snippet: Tenocytes, the primary cells in tendon, are scattered throughout the collagenic
+    fibers, and are responsible of tendon remodeling and tissue repair in pathological
+    condition.
+  explanation: The study highlights the role of tenocytes in tendon ECM remodeling,
+    indicating their role in maintaining the matrix which includes collagen and proteoglycans.
+- reference: PMID:32724089
+  supports: SUPPORT
+  snippet: Tendons are specialized tissues composed primarily of load-responsive fibroblasts
+    (tenocytes) embedded in a collagen-rich extracellular matrix.
+  explanation: The description of tendons indicates that tenocytes (fibroblasts in
+    the tendon) are responsible for the synthesis of the collagen-rich ECM.
+- reference: PMID:19422635
+  supports: SUPPORT
+  snippet: Importantly, proteoglycans are essential components of the tendon extracellular
+    matrix (ECM) [...] Within tendons, the small leucine-rich proteoglycans (SLPRs),
+    decorin, fibromodulin, lumican and keratocan predominate within tensional regions.
+  explanation: This reference highlights the importance and prevalence of proteoglycans
+    within the tendon's ECM, which are synthesized by tendon cells.
+
+
+
+--- Results for assertion4 ---
+Assertion: Tendon cell produces collagen type I in species such as humans and mice.
+
+CiteSeek Output:
+- reference: PMID:26256998
+  supports: SUPPORT
+  snippet: Tendon is mainly composed of type I collagen fibrils, displaying a parallel
+    organization along the tendon axis.
+  explanation: The text indicates that tendons, which are composed primarily of tendon
+    cells, are mainly made up of type I collagen, thereby supporting the statement
+    for human species.
+- reference: PMID:25249460
+  supports: SUPPORT
+  snippet: TGF-beta signalling was sufficient and required via SMAD2/3 to drive mouse
+    mesodermal stem cells towards the tendon lineage ex vivo and in vitro.
+  explanation: This reference indirectly supports the statement by noting that TGF-beta
+    is required for tendon differentiation, which involves the production of type
+    I collagen in mice.
+- reference: PMID:7414083
+  supports: SUPPORT
+  snippet: Normal equine tendon was found to be composed almost exclusively of type
+    I collagen whereas the scarred tendon had substantial quantities (20 to 30 per
+    cent) of type III collagen in addition to type I.
+  explanation: While this study is on equine tendon, it illustrates the significant
+    presence of type I collagen produced by tendon cells, a feature that extends to
+    other mammals like humans and mice.
+
+
+
+--- Results for assertion5 ---
+Assertion: Tendon cell is also known as a tenocyte.
+
+CiteSeek Output:
+- reference: PMID:17696903
+  supports: SUPPORT
+  snippet: Understanding the biology of the tenocyte is central to the development
+    of appropriate interventions and drug therapies that will either prevent the onset
+    of disease, or lead to more rapid and appropriate repair of injured tendon.
+  explanation: The article discusses the role of the 'tenocyte', which is another
+    name for tendon cell, indicating that a tendon cell is indeed known as a tenocyte.
+- reference: PMID:36430562
+  supports: SUPPORT
+  snippet: The tenocytes maintained their tendon cell properties for a longer time
+    after the transient induction in the absence of growth factors and mechanical
+    stress.
+  explanation: The usage of 'tenocytes' in the context of tendon cells indicates that
+    they are synonymous, supporting the statement that a tendon cell is known as a
+    tenocyte.
+- reference: PMID:36594083
+  supports: SUPPORT
+  snippet: We traced the cell fate of tendon cells using Scx(Lin) (a tendon specific
+    Cre Scx(CreERT2); R26R-tdTomato line)...
+  explanation: The study involves tracing tendon cells which confirms that tendon
+    cells are being referred to in the context of tenocytes, as their roles and transdifferentiation
+    processes are discussed.
+
+
+
+--- Results for assertion6 ---
+Assertion: Tendon cell plays a critical role in tendon formation and repair.
+
+CiteSeek Output:
+- reference: PMID:25734975
+  supports: PARTIAL
+  snippet: These studies have highlighted specific growth factors and transcription
+    factors involved in tenogenesis during developmental and repair processes.
+  explanation: While tendon cells are part of this process, the literature emphasizes
+    the role of growth and transcription factors, suggesting an indirect role of tendon
+    cells in these studies.
+- reference: PMID:39820504
+  supports: PARTIAL
+  snippet: CD26(+) tendon stem/progenitor cells migrate into the tendon midsubstance
+    and differentiation into tenocytes during tendon healing.
+  explanation: The literature identifies progenitor cells that differentiate into
+    tendon cells (tenocytes) during repair, highlighting a role, though indirect,
+    in repair.
+- reference: PMID:32724089
+  supports: SUPPORT
+  snippet: Tendons are specialized tissues composed primarily of load-responsive fibroblasts
+    (tenocytes) embedded in a collagen-rich extracellular matrix.
+  explanation: This literature directly mentions tendon cells (tenocytes) in the context
+    of tendon composition, indicating their role in maintaining tendon tissue through
+    response to mechanical load.
+- reference: PMID:37387410
+  supports: SUPPORT
+  snippet: In tendon injury, MSCs promote tendon repair through four mechanisms...
+    They are also involved in extracellular matrix reorganization by promoting collagen
+    production.
+  explanation: Mesenchymal stem cells promote tendon repair processes, including those
+    leading to changes in the extracellular matrix and collagen production, processes
+    in which tendon cells are involved.
+- reference: PMID:25664867
+  supports: SUPPORT
+  snippet: The tools generated and the molecular regulators identified in developmental
+    research have enhanced mechanistic studies in tendon injury and repair, both by
+    defining benchmarks for success, as well as informing regenerative strategies.
+  explanation: This indicates that understanding molecular regulators related to tendon
+    cells plays a significant part in strategies for tendon repair and development.
+
+
+
+--- Results for assertion7 ---
+Assertion: Tendon cell is involved in maintaining tendon homeostasis.
+
+CiteSeek Output:
+- reference: PMID:19918904
+  supports: SUPPORT
+  snippet: Thus, low mechanical stretching may be beneficial to tendons by enabling
+    differentiation of TSCs into tenocytes to maintain tendon homeostasis.
+  explanation: The literature suggests that tendon stem cells, which differentiate
+    into tendon cells, are involved in maintaining tendon homeostasis.
+- reference: PMID:31961320
+  supports: SUPPORT
+  snippet: These results uncover the critical importance of molecular pathways that
+    maintain the differentiated cell fate and a key role for TGFbeta signaling in
+    these processes.
+  explanation: TGFbeta signaling is necessary for the maintenance of tendon cell fate,
+    which is crucial for tendon homeostasis.
+- reference: PMID:23718724
+  supports: SUPPORT
+  snippet: the nervous system, via efferent pathways which are associated with through
+    specific neuronal mediators plays an active role in regulating pain, inflammation
+    and tendon homeostasis.
+  explanation: Neuronal regulation indicates tendon cells, aided by neuronal mediators,
+    are involved in tendon homeostasis.
+- reference: PMID:35461310
+  supports: SUPPORT
+  snippet: Autophagy regulates tendon homeostasis by controlling PC1 quality control,
+    thus potentially playing a role in the development of injured tendons.
+  explanation: Autophagy in tendon cells plays a key role in maintaining tendon homeostasis
+    by regulating the quality of collagen.
+- reference: PMID:33569739
+  supports: SUPPORT
+  snippet: The review seeks to provide an overview of the role of inflammation and
+    metabolism in tendon cell function, tendinopathy, and tendon healing.
+  explanation: The literature supports that tendon cells are involved in maintaining
+    homeostasis and function through metabolic pathways.
+
+
+
+--- Results for assertion8 ---
+Assertion: Tendon cell's development and function are heavily linked to the transcription factor Scx (Scleraxis), a crucial marker for tendon progenitor cells and mature tenocytes.
+
+CiteSeek Output:
+- reference: PMID:31540914
+  supports: SUPPORT
+  snippet: The transcription factor scleraxis (Scx) is required for tendon development...
+  explanation: The article mentions that Scx is required for tendon development and
+    is expressed by all tendon progenitors and cells.
+- reference: PMID:24705622
+  supports: SUPPORT
+  snippet: Scleraxis and Mohawk have been identified as critical transcription factors
+    in tendon development and differentiation.
+  explanation: This reference identifies Scx as a critical transcription factor in
+    tendon development.
+- reference: PMID:32795590
+  supports: SUPPORT
+  snippet: The transcription factor scleraxis (SCX) is expressed throughout tendon
+    development and plays a key role in directing tendon wound healing.
+  explanation: The paper highlights the role of Scx in tendon development and wound
+    healing, supporting its importance in tendon cells' development and function.
+
+
+

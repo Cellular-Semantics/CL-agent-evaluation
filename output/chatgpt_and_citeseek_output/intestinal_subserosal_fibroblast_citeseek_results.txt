@@ -1,0 +1,221 @@
+--- CiteSeek Results for intestinal_subserosal_fibroblast_statements.yaml ---
+
+--- Results for assertion1 ---
+Assertion: Intestinal subserosal fibroblast is a type of fibroblast resident in the subserosal layer of the intestine.
+
+CiteSeek Output:
+- reference: PMID:17187184
+  supports: SUPPORT
+  snippet: In the normal appendix, myofibroblasts were restricted to the mucosa, and
+    CD34-positive stromal cells were distributed in the submucosal and subserosal
+    layers.
+  explanation: The reference mentions the presence of specific fibroblast populations,
+    such as CD34-positive stromal cells, in the submucosal and subserosal layers,
+    supporting the statement.
+- reference: PMID:38877292
+  supports: SUPPORT
+  snippet: Our aim was to analyse their expression together with regulatory miRNAs
+    in submucosal and subserosal fibroblasts in ulcerative colitis (UC) and Crohn's
+    disease (CD) using immunohistochemistry and qPCR.
+  explanation: This study refers specifically to subserosal fibroblasts, which supports
+    the existence of intestinal subserosal fibroblasts.
+
+
+
+--- Results for assertion2 ---
+Assertion: Intestinal subserosal fibroblast has a distinctive spindle-shaped appearance.
+
+CiteSeek Output:
+- reference: PMID:23391593
+  supports: PARTIAL
+  snippet: An interstitial cell type with an ultrastructure intermediate between fibroblast-like
+    cells (FLC) and interstitial cells of Cajal was identified (IC-SS). IC-SS had
+    thin and flattened branching processes, most densely arranged close to the longitudinal
+    muscle cells.
+  explanation: The literature mentions subserosal interstitial cells that have an
+    intermediate ultrastructure between fibroblast-like cells and interstitial cells
+    of Cajal, which is partially supportive of a distinctive appearance but does not
+    clearly specify it as spindle-shaped.
+- reference: PMID:17187184
+  supports: PARTIAL
+  snippet: many or some stellate-shaped or spindle-shaped stromal cells existing in
+    the subserosal area with granulation tissue.
+  explanation: The literature describes some stromal cells in the subserosal area
+    as spindle-shaped, but it emphasizes a variety of shapes, including stellate and
+    other morphologies.
+
+
+
+--- Results for assertion3 ---
+Assertion: Intestinal subserosal fibroblast has a high production of extracellular matrix proteins.
+
+CiteSeek Output:
+- reference: PMID:38877292
+  supports: PARTIAL
+  snippet: Digital pathology analysis revealed higher proportion of larger and thicker
+    fibres that were more tortuous and reticulated in subserosal fibrosis compared
+    to submucosal fibrosis.
+  explanation: The reference discusses the characteristics of collagen fibers in subserosal
+    fibrosis in Crohn's disease, indicating differences in fibroblast populations
+    and collagen fiber morphology. While it doesn't explicitly confirm high ECM protein
+    production in intestinal subserosal fibroblasts, the findings suggest distinct
+    fibroblast activity in this region.
+
+
+
+--- Results for assertion4 ---
+Assertion: Intestinal subserosal fibroblast produces extracellular matrix proteins such as collagen type I and fibronectin.
+
+CiteSeek Output:
+- reference: PMID:11677151
+  supports: NO_EVIDENCE
+  snippet: 'OBJECTIVE: To localize the extracellular matrix proteins collagen I, collagen
+    IV, fibronectin, and laminin in the peritoneal membrane.'
+  explanation: The study discusses extracellular matrix proteins' localization in
+    the peritoneum but does not specifically mention intestinal subserosal fibroblasts.
+- reference: PMID:10444394
+  supports: NO_EVIDENCE
+  snippet: Intestinal myofibroblasts are activated and proliferate in response to
+    various growth factors...
+  explanation: The study talks about intestinal myofibroblasts, not specifically about
+    subserosal fibroblasts producing ECM proteins.
+- reference: PMID:12581868
+  supports: PARTIAL
+  snippet: Collagen XII and fibronectin production was three- to fivefold higher under
+    tensed than under released conditions.
+  explanation: This study discusses the production of fibronectin and collagen XII
+    by fibroblasts under tension but does not specifically address collagen I production
+    by intestinal subserosal fibroblasts.
+- reference: PMID:32271873
+  supports: PARTIAL
+  snippet: We investigated whether interleukin-34 [IL-34], a cytokine that is over-produced
+    in CD, regulates collagen production by gut fibroblasts.
+  explanation: Collagen production by gut fibroblasts is mentioned but not specifically
+    subserosal fibroblasts' role.
+- reference: PMID:6477059
+  supports: NO_EVIDENCE
+  snippet: Fibroblast-like cells of the rat intestinal villi were studied by scanning
+    and transmission electron microscopy.
+  explanation: The focus is on fibroblast-like cells in the intestinal villi, not
+    the subserosal fibroblasts and their specific ECM protein production.
+- reference: PMID:1605364
+  supports: PARTIAL
+  snippet: In humans, collagen is the major matrix constituent of the adult intestinal
+    wall and is synthesized by smooth muscle cells.
+  explanation: Collagen production mentioned in context with smooth muscle cells,
+    partially supporting the statement but not specific to subserosal fibroblasts.
+
+
+
+--- Results for assertion5 ---
+Assertion: Intestinal subserosal fibroblast expresses markers such as PDGFRα and CD90.2 in mice.
+
+CiteSeek Output:
+- reference: PMID:26863470
+  supports: PARTIAL
+  snippet: The described protocol will consistently yield characteristic spindle-shaped
+    cells with the MF phenotype that express the markers CD90, alpha-SMA and vimentin.
+  explanation: "This reference states that Myofibroblasts express CD90 and other markers.\
+    \ However, it does not explicitly discuss PDGFR\u03B1 expression in subserosal\
+    \ fibroblasts."
+- reference: PMID:10444394
+  supports: PARTIAL
+  snippet: Intestinal myofibroblasts are activated and proliferate in response to
+    various growth factors, particularly the platelet-derived growth factor (PDGF)
+    family, which includes PDGF-BB and stem cell factor (SCF), through expression
+    of PDGF receptors.
+  explanation: "While the literature mentions PDGF receptors in intestinal myofibroblasts,\
+    \ it does not specifically confirm PDGFR\u03B1 in subserosal fibroblast."
+
+
+
+--- Results for assertion6 ---
+Assertion: Intestinal subserosal fibroblast plays an essential role in maintaining intestinal structural integrity.
+
+CiteSeek Output:
+- reference: PMID:38877292
+  supports: PARTIAL
+  snippet: These results suggest distinct fibroblast populations in fibrostenosing
+    CD, and are further supported by image analysis showing significant differences
+    in the morphology and architecture of collagen fibres in submucosal fibrosis in
+    comparison to subserosal fibrosis.
+  explanation: The abstract implies subserosal fibroblasts have a role in fibrosis,
+    which affects structural integrity, but it doesn't specifically mention maintaining
+    overall structural integrity outside of CD pathology.
+- reference: PMID:36032088
+  supports: PARTIAL
+  snippet: It is now well established that fibroblasts play significant roles both
+    in the maintenance of epithelial and immune homeostasis in the intestine and the
+    response to tissue damage mainly through the secretion of a variety of soluble
+    mediators and ligands and the remodeling of the extracellular matrix.
+  explanation: While fibroblasts generally play significant roles in maintaining intestinal
+    homeostasis, the specific essential role of subserosal fibroblasts in maintaining
+    structural integrity is not clearly established.
+
+
+
+--- Results for assertion7 ---
+Assertion: Intestinal subserosal fibroblast contributes to the host's immune response through its capacity to produce cytokines and chemokines.
+
+CiteSeek Output:
+- reference: PMID:36591258
+  supports: PARTIAL
+  snippet: Detailed analysis of barrier tissues such as skin, gut, and lung now show
+    that some fibroblasts directly sense pathogens and other danger signals to elicit
+    host defense functions including antimicrobial activity, leukocyte recruitment,
+    and production of cytokines and lipid mediators relevant to inflammation and immunosuppression.
+  explanation: The literature suggests that fibroblasts, including those in the gut,
+    can play a role in immune defense by producing cytokines, but the focus is on
+    fibroblasts at barrier tissues and not specifically on subserosal fibroblasts.
+- reference: PMID:20632282
+  supports: PARTIAL
+  snippet: Intestinal fibroblasts express TLR-4 and respond to LPS by activating NFkappaB
+    and inducing collagen contraction. LPS acts in concert with TGF-beta1 to induce
+    CTGF. LPS reduces the expression of the TGF-beta1 inhibitor, smad-7.
+  explanation: This reference indicates that fibroblasts in the intestine can be activated
+    by LPS through TLR-4 and are involved in inflammatory signaling pathways, which
+    indirectly supports the involvement of fibroblasts in immune responses.
+- reference: PMID:23159607
+  supports: PARTIAL
+  snippet: Chemokines, a family of chemotactic cytokines, appear to be central mediators
+    of the initiation as well as progression of these biological processes. Traditionally
+    chemokines have only been considered to play a critical role in orchestrating
+    the influx of immune cells to sites of tissue injury.
+  explanation: The reference discusses the role of chemokines in fibroblast activation
+    in fibrosis, which implies their capacity to produce chemokines but does not explicitly
+    mention subserosal fibroblasts.
+
+
+
+--- Results for assertion8 ---
+Assertion: The development of the intestinal subserosal fibroblast is regulated by mechanisms involving key transcription factors, including ACTA2 and MYH11.
+
+CiteSeek Output:
+- reference: PMID:36007455
+  supports: WRONG_STATEMENT
+  snippet: Loss of Acta2 in cardiac fibroblasts does not prevent the myofibroblast
+    differentiation or affect the cardiac repair after myocardial infarction.
+  explanation: This study investigates Acta2 in cardiac fibroblasts, not intestinal
+    subserosal fibroblasts, and indicates other actin isoforms compensate for the
+    loss of Acta2. Additionally, MYH11 is not mentioned as a transcription factor
+    in this context.
+
+
+
+--- Results for assertion9 ---
+Assertion: Intestinal subserosal fibroblast has potential involvement in pathological conditions such as fibrosis and inflammation.
+
+CiteSeek Output:
+- reference: PMID:38877292
+  supports: SUPPORT
+  snippet: These results suggest distinct fibroblast populations in fibrostenosing
+    CD, and are further supported by image analysis showing significant differences
+    in the morphology and architecture of collagen fibres in submucosal fibrosis in
+    comparison to subserosal fibrosis. Our study is the first to describe differences
+    in submucosal and subserosal fibroblast populations.
+  explanation: This reference highlights the involvement of subserosal fibroblasts
+    in fibrostenosing Crohn's disease, indicating their role in pathological conditions
+    such as fibrosis.
+
+
+

@@ -1,0 +1,93 @@
+id: https://w3id.org/ontogpt/cell_processes
+name: cell-processes-template
+title: Cell Type Processes Template
+description: >-
+  A template for Cell Type Processes
+license: https://creativecommons.org/publicdomain/zero/1.0/
+prefixes:
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  GO: http://purl.obolibrary.org/obo/GO_
+  CL: http://purl.obolibrary.org/obo/CL_
+  RO: http://purl.obolibrary.org/obo/RO_
+  BFO: http://purl.obolibrary.org/obo/BFO_
+  linkml: https://w3id.org/linkml/
+  skos: http://www.w3.org/2004/02/skos/core#
+
+default_prefix: CL 
+default_range: string
+
+imports:
+  - linkml:types
+  - core
+
+classes:
+  CellType:
+    description: Represents a specific cell type with links to biological processes in GO.
+    tree_root: true
+    is_a: NamedEntity
+    attributes:
+      label:
+        range: string
+        description: The concise name of the cell type
+        slot_uri: rdfs:label
+
+
+      biological_processes:
+        description: semicolon-separated list of cell type to biological processes relationships
+        multivalued: true
+        range: BiologicalProcess
+        slot_uri: RO:0002215
+        annotations:
+          prompt: semicolon-separated list of biological processes that this cell type plays.
+            These should be short descriptive terms corresponding to ontology terms in the GO biological process
+            hierarchy.
+       
+      
+       
+      cellular_component:
+        annotations:
+          description: semicolon-separated list of cell type to cellular components relationships
+          prompt: >-
+              semicolon-separated list of cellular components that this cell type have.
+              These should be short descriptive terms corresponding to ontology terms in the GO cellular component
+              hierarchy.
+          owl: SubClassOf, ObjectSomeValuesFrom
+        slot_uri: BFO:0000051
+        multivalued: true
+        range: CellularComponent
+
+      
+
+     
+    
+  BiologicalProcess:
+    is_a: NamedEntity
+    id_prefixes:
+      - GO  
+    attributes:
+      label:
+        range: string
+        description: The GO identifier for the biological process.
+        slot_uri: rdfs:label
+      definition:
+        range: string
+        description: Detailed description of the biological process as per Gene Ontology.
+        slot_uri: skos:definition  # Linking this attribute to the SKOS definition URI
+    annotations:
+      annotators: sqlite:obo:go
+
+  CellularComponent:
+    is_a: NamedEntity
+    id_prefixes:
+      - GO  
+    attributes:
+      label:
+        range: string
+        description: The GO identifier for the cellular component.
+        slot_uri: rdfs:label
+      definition:
+        range: string
+        description: Detailed description of the cellular component of cell as per Gene Ontology.
+        slot_uri: skos:definition  # Linking this attribute to the SKOS definition URI
+    annotations:
+      annotators: sqlite:obo:go

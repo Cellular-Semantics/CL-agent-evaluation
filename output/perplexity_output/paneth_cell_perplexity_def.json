@@ -1,0 +1,60 @@
+{
+    "id": "3f342416-5fcd-4733-b3e0-b37ed93de26b",
+    "model": "sonar-pro",
+    "created": 1749639789,
+    "usage": {
+        "prompt_tokens": 393,
+        "completion_tokens": 184,
+        "total_tokens": 577,
+        "search_context_size": "low"
+    },
+    "citations": [
+        "https://en.wikipedia.org/wiki/Paneth_cell",
+        "https://library.fiveable.me/key-terms/anatomy-physiology-ii/paneth-cells",
+        "https://www.britannica.com/science/Paneths-cell",
+        "https://rupress.org/jem/article/211/7/1393/41628/Paneth-cell-extrusion-and-release-of-antimicrobial",
+        "https://screening.iarc.fr/doc/BB9.pdf"
+    ],
+    "search_results": [
+        {
+            "title": "Paneth cell - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Paneth_cell",
+            "date": null
+        },
+        {
+            "title": "Paneth Cells - (Anatomy and Physiology II) - Fiveable",
+            "url": "https://library.fiveable.me/key-terms/anatomy-physiology-ii/paneth-cells",
+            "date": null
+        },
+        {
+            "title": "Paneth's cell | Gastric Mucosa, Intestinal Crypts & Goblet ... - Britannica",
+            "url": "https://www.britannica.com/science/Paneths-cell",
+            "date": "2025-05-23"
+        },
+        {
+            "title": "Paneth cell extrusion and release of antimicrobial products is ...",
+            "url": "https://rupress.org/jem/article/211/7/1393/41628/Paneth-cell-extrusion-and-release-of-antimicrobial",
+            "date": "2014-06-30"
+        },
+        {
+            "title": "[PDF] Pathology & Genetics Head and Neck Tumours",
+            "url": "https://screening.iarc.fr/doc/BB9.pdf",
+            "date": null
+        }
+    ],
+    "object": "chat.completion",
+    "choices": [
+        {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+                "role": "assistant",
+                "content": "A specialized secretory epithelial cell of the small intestinal crypts, particularly abundant at the base of the crypts of Lieberk\u00fchn, distinguished by prominent apical secretory granules containing antimicrobial peptides such as \u03b1-defensins (cryptdins in mice), lysozyme (notably in mice), and other proteins[1][3][4]. This cell type supports the intestinal stem cell niche by providing essential signals for stem cell maintenance and contributes to innate immunity by releasing antimicrobial substances in response to microbial and immune stimuli, including MyD88-dependent toll-like receptor activation (e.g., TLR9 in humans and mice)[1][4]. Structurally, it exhibits a basally located nucleus and dense cytoplasmic granules, and is found in the small intestine and appendix of humans and mice, but is absent from the colonic epithelium[1][3]."
+            },
+            "delta": {
+                "role": "assistant",
+                "content": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+# --- Python & Virtual Environments ---
+# Poetry virtual environment
+.venv/
+# Standard Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- API Keys & Environment Variables ---
+# Never commit your environment files containing secret keys
+.env
+
+# --- Caches & Local Databases ---
+# Ignore caches from tools like LiteLLM and ChromaDB
+.litellm_cache/
+src/db
+
+# --- IDE & OS Specific files ---
+# JetBrains (PyCharm, etc.)
+.idea/
+# Visual Studio Code
+.vscode/
+# macOS
+.DS_Store
+
+# --- Build & Distribution Artifacts ---
+build/
+dist/
+*.egg-info

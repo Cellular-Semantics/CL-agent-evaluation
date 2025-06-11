@@ -1,0 +1,60 @@
+{
+    "id": "1e749385-c4b3-4e5a-bfe2-7f2bb1baa9b8",
+    "model": "sonar-pro",
+    "created": 1749639799,
+    "usage": {
+        "prompt_tokens": 393,
+        "completion_tokens": 169,
+        "total_tokens": 562,
+        "search_context_size": "low"
+    },
+    "citations": [
+        "https://en.wikipedia.org/wiki/Astrocyte",
+        "https://www.kenhub.com/en/library/physiology/astrocyte",
+        "https://www.britannica.com/science/astrocyte",
+        "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/astrocyte",
+        "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2019.01114/full"
+    ],
+    "search_results": [
+        {
+            "title": "Astrocyte - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Astrocyte",
+            "date": null
+        },
+        {
+            "title": "Astrocytes: Structure and functions | Kenhub",
+            "url": "https://www.kenhub.com/en/library/physiology/astrocyte",
+            "date": "2024-12-05"
+        },
+        {
+            "title": "Astrocyte | Definition, Function, & Facts - Britannica",
+            "url": "https://www.britannica.com/science/astrocyte",
+            "date": "2025-05-03"
+        },
+        {
+            "title": "Definition of astrocyte - NCI Dictionary of Cancer Terms",
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/astrocyte",
+            "date": null
+        },
+        {
+            "title": "Astrocytes: Role and Functions in Brain Pathologies - Frontiers",
+            "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2019.01114/full",
+            "date": null
+        }
+    ],
+    "object": "chat.completion",
+    "choices": [
+        {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+                "role": "assistant",
+                "content": "A glial cell subtype within the central nervous system, distinguished by a star-shaped morphology with numerous processes that contact both neurons and capillaries, and exhibiting regional heterogeneity such as fibrous forms in white matter and protoplasmic forms in gray matter[1][3]. These cells regulate synaptic transmission by uptaking neurotransmitters like glutamate and GABA, maintain extracellular ion and neurotransmitter homeostasis, support the blood\u2013brain barrier, and participate in neurogenesis and synaptogenesis[2][5]. They are present in both vertebrates and invertebrates, with key identification in mammals often relying on expression of glial fibrillary acidic protein (GFAP)[1][5]. Their proliferative capacity persists postnatally, and they respond to injury by dividing and occupying spaces left by damaged neurons[3][5]."
+            },
+            "delta": {
+                "role": "assistant",
+                "content": ""
+            }
+        }
+    ]
+}
