@@ -1,0 +1,58 @@
+{
+    "id": "1529a07c-a69a-489f-8efd-625501a300d6",
+    "model": "sonar-pro",
+    "created": 1752057761,
+    "usage": {
+        "prompt_tokens": 116,
+        "completion_tokens": 1024,
+        "total_tokens": 1140,
+        "search_context_size": "low"
+    },
+    "citations": [
+        "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2022.940867/full",
+        "https://pubmed.ncbi.nlm.nih.gov/39406906/",
+        "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2022.994480/full",
+        "https://pubmed.ncbi.nlm.nih.gov/24890723/"
+    ],
+    "search_results": [
+        {
+            "title": "Heterogeneity and Function of Kupffer Cells in Liver Injury",
+            "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2022.940867/full",
+            "date": "2022-06-27",
+            "last_updated": "2025-04-22"
+        },
+        {
+            "title": "Liver Macrophage Diversity in Health and Disease",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39406906/",
+            "date": "2024-01-01",
+            "last_updated": "2024-11-11"
+        },
+        {
+            "title": "Distinct spatial distribution and roles of Kupffer cells ...",
+            "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2022.994480/full",
+            "date": "2022-09-30",
+            "last_updated": "2025-04-27"
+        },
+        {
+            "title": "Infiltrating monocyte-derived macrophages and resident ...",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24890723/",
+            "date": "2014-07-01",
+            "last_updated": "2025-06-20"
+        }
+    ],
+    "object": "chat.completion",
+    "choices": [
+        {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+                "role": "assistant",
+                "content": "**Monocyte-derived Kupffer Cells: Detailed Overview**\n\n**Definition and Ontogeny:**  \nMonocyte-derived Kupffer cells are a subset of **hepatic macrophages** that arise from circulating **monocytes**\u2014primarily in response to liver injury, inflammation, or depletion of the resident, embryonically derived Kupffer cells. Under normal (homeostatic) conditions, the liver\u2019s resident Kupffer cells originate from yolk sac-derived erythro-myeloid progenitors during embryogenesis and maintain their population via self-renewal, independently of adult bone marrow hematopoiesis[1][3]. However, upon significant hepatic insult (acute or chronic injury), the population of resident Kupffer cells decreases, triggering the recruitment of **bone marrow-derived monocytes**. These monocytes infiltrate the liver, differentiate, and can occupy the niche of depleted Kupffer cells, thus becoming *monocyte-derived Kupffer cells*[1][3][4].\n\n**Phenotype and Plasticity:**  \nMonocyte-derived Kupffer cells exhibit **functional and phenotypic plasticity**, adapting to local hepatic signals. Their surface marker expression and gene profiles can differ from embryonic Kupffer cells, although over time in the liver microenvironment, they may increasingly resemble resident Kupffer cells in both marker profile and function[1][3]. In mice, cells are typically distinguished using markers such as F4/80, CD11b, and Clec4F; monocyte-derived cells may retain higher levels of CD11b or other monocyte-lineage markers initially[3].\n\n**Function During Liver Injury:**  \nUpon recruitment following liver injury, **monocyte-derived Kupffer cells (sometimes more broadly termed \u201cmonocyte-derived macrophages,\u201d MoMFs)** are crucial for:\n- *Debris and pathogen clearance:* They phagocytose necrotic cell remnants and invading microbes[2][3].\n- *Inflammation regulation:* They initially promote inflammation (pro-inflammatory Ly6C^hi phenotype in mice) but can rapidly transition to a pro-repair, anti-inflammatory (Ly6C^lo) phenotype during resolution and wound healing[3].\n- *Fibrogenesis and tissue remodeling:* They influence hepatic stellate cell activation and extracellular matrix remodeling, affecting fibrosis progression or resolution[3].\n- *Regeneration:* By modulating cytokine and growth factor release, they help orchestrate hepatocyte proliferation and tissue repair[3][4].\n\n**Distinction from Resident Kupffer Cells:**  \nWhile resident Kupffer cells are primarily responsible for immune surveillance, tolerance induction, and metabolic homeostasis under steady state[1][2][3], monocyte-derived Kupffer cells are *indispensable during pathological states* and may temporarily dominate the hepatic macrophage pool after severe injury[2][3][4]. Over time, monocyte-derived cells can persist and functionally replace lost resident KCs, especially if the resident niche remains unfilled by self-renewal[1][4].\n\n**Clinical and Research Implications:**  \nUnderstanding the **origin- and context-specific roles** of monocyte-derived Kupffer cells is critical for therapeutic strategies in liver disease\u2014such as targeting fibrogenic or pro-inflammatory macrophages while sparing cells supporting tissue repair[1][2]. Their plasticity, distinct gene expression programs, and dynamic behavior make them both a challenge and opportunity for precision medicine in hepatic pathology.\n\n---\n**References**\n\nLi, W., et al. (2022). Heterogeneity and Function of Kupffer Cells in Liver Injury. Frontiers in Immunology, 13, 940867. DOI: [10.3389/fimmu.2022.940867](https://doi.org/10.3389/fimmu.2022.940867)\n\nFlores Molina, M., et al. (2022). Distinct spatial distribution and roles of Kupffer cells and monocyte-derived macrophages in mouse acute liver injury. Frontiers in Immunology, 13, 994480. DOI: [10.3389/fimmu.2022.994480](https://doi.org/10.3389/fimmu.2022.994480)\n\nZigmond, E., et al. (2014). Infiltrating monocyte-derived macrophages and resident Kupffer cells display different ontogeny and functions in acute liver injury. Journal of Immunology, 193(1), 344-353. DOI: [10.4049/jimmunol.1400574](https://doi.org/10.4049/jimmunol.1400574)\n\nHorn, P., et al. (2024). Liver Macrophage Diversity in Health and Disease. Current Topics in Microbiology and Immunology, 441, 137-167. DOI: [10.1007/82_2023_411](https://doi.org/10.1007/82_2023_411)"
+            },
+            "delta": {
+                "role": "assistant",
+                "content": ""
+            }
+        }
+    ]
+}

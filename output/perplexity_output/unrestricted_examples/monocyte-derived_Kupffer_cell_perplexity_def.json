@@ -1,0 +1,65 @@
+{
+    "id": "6475c20a-233b-4289-b19f-e96c6a2d56be",
+    "model": "sonar-pro",
+    "created": 1752053114,
+    "usage": {
+        "prompt_tokens": 23,
+        "completion_tokens": 742,
+        "total_tokens": 765,
+        "search_context_size": "low"
+    },
+    "citations": [
+        "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2022.940867/full",
+        "https://ashpublications.org/blood/article/110/12/4077/23469/Kupffer-cell-heterogeneity-functional-properties",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4771376/",
+        "https://www.jci.org/articles/view/166954",
+        "https://www.tempobioscience.com/cell-of-the-month-kupffer-cells/"
+    ],
+    "search_results": [
+        {
+            "title": "Heterogeneity and Function of Kupffer Cells in Liver Injury - Frontiers",
+            "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2022.940867/full",
+            "date": "2022-06-27",
+            "last_updated": "2025-04-22"
+        },
+        {
+            "title": "functional properties of bone marrow\u2013derived and sessile ...",
+            "url": "https://ashpublications.org/blood/article/110/12/4077/23469/Kupffer-cell-heterogeneity-functional-properties",
+            "date": "2007-12-01",
+            "last_updated": "2025-03-29"
+        },
+        {
+            "title": "Kupffer Cell Metabolism and Function - PMC - PubMed Central",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4771376/",
+            "date": "2015-08-14",
+            "last_updated": "2025-07-08"
+        },
+        {
+            "title": "Monocyte-derived macrophages orchestrate multiple cell ...",
+            "url": "https://www.jci.org/articles/view/166954",
+            "date": null,
+            "last_updated": null
+        },
+        {
+            "title": "Kupffer Cells by Tempo Bioscience",
+            "url": "https://www.tempobioscience.com/cell-of-the-month-kupffer-cells/",
+            "date": "2024-12-09",
+            "last_updated": "2024-12-16"
+        }
+    ],
+    "object": "chat.completion",
+    "choices": [
+        {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+                "role": "assistant",
+                "content": "**Overview of Monocyte-Derived Kupffer Cells**\n\nKupffer cells (KCs) are the principal resident macrophages of the liver, strategically positioned within the liver sinusoids. Their primary roles include maintaining liver homeostasis, acting as gatekeepers for pathogen detection, and orchestrating immune responses[1][5]. While most Kupffer cells in a healthy adult liver are derived from embryonic precursors and maintained by self-renewal, a subset originates from adult bone marrow-derived monocytes, especially in cases of liver injury or impaired proliferation of embryo-derived KCs[1][2].\n\n**Origin and Heterogeneity**\n\nKupffer cell populations are heterogeneous, with at least two subsets identified in studies:  \n- **Embryo-derived Kupffer cells:** These are the majority in healthy adults, self-renewing, and long-lived.\n- **Monocyte-derived Kupffer cells:** Arise from circulating monocytes, particularly during liver injury, infection, or when the embryonic pool is compromised[1][2].  \nThis second group\u2014monocyte-derived Kupffer cells\u2014is more radiosensitive and replaces the embryonic population under certain conditions, such as after liver or bone marrow transplantation[2].\n\n**Functional Properties**\n\nMonocyte-derived Kupffer cells are specialized for:\n- **Phagocytosis:** They engulf and destroy pathogens, cellular debris, and foreign particles, serving as the liver\u2019s first line of defense[5].\n- **Inflammatory Response:** These cells are more likely to be recruited into inflammatory foci and participate actively in immune reactions, distinguishing them from the more sessile, radioresistant embryo-derived subset[2].\n- **Antigen Presentation:** Express MHC class I and II, allowing them to present antigens to T cells and modulate adaptive immune responses[5].\n- **Cytokine Production:** Can secrete pro-inflammatory cytokines (e.g., TNF, IL-12) in response to stimuli, helping to regulate inflammation and immune defenses[3].\n\n**Marker Expression**\n\nIn mouse models, Kupffer cells (including monocyte-derived ones) are identified by surface markers such as F4/80, CD11b, and CD68. The specific combination of these markers can distinguish different functional subsets, with monocyte-derived KCs often expressing higher levels of CD11b and being more active in inflammatory environments[3].\n\n**Pathological Relevance**\n\nMonocyte-derived Kupffer cells play critical roles in both acute and chronic liver injury. They contribute to inflammatory responses, fibrosis, tissue repair, and tumor cell surveillance. Their activation and recruitment are tightly regulated and context-dependent, making them essential players in both liver protection and disease progression[1][4].\n\n---\n\n**Summary Table: Monocyte-Derived Kupffer Cells**\n\n| Feature                  | Monocyte-Derived Kupffer Cells         |\n|--------------------------|----------------------------------------|\n| Origin                   | Bone marrow monocytes                  |\n| Main context             | Liver injury, inflammation, replacement|\n| Lifespan                 | Shorter, more radiosensitive           |\n| Functions                | Phagocytosis, inflammation, antigen presentation, cytokine release |\n| Key markers (mouse)      | F4/80+, CD11b+ (typically)             |\n| Role in liver pathology  | Pro-inflammatory, wound healing, fibrosis, tumor surveillance |\n\n**In essence:**  \nMonocyte-derived Kupffer cells are a subpopulation of liver macrophages arising from circulating monocytes, especially during liver stress or injury. They are crucial for responding to infections and tissue damage, participating in immune responses, and aiding liver repair and remodeling[1][2][3]."
+            },
+            "delta": {
+                "role": "assistant",
+                "content": ""
+            }
+        }
+    ]
+}

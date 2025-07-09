@@ -1,0 +1,58 @@
+{
+    "id": "64c9bf2d-b3b7-4537-bcfd-fafd6b680161",
+    "model": "sonar-pro",
+    "created": 1752054328,
+    "usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 881,
+        "total_tokens": 994,
+        "search_context_size": "low"
+    },
+    "citations": [
+        "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2019.01338/full",
+        "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2022.826748/full",
+        "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2021.832613/pdf",
+        "https://www.frontiersin.org/articles/10.3389/fphys.2021.832613/full"
+    ],
+    "search_results": [
+        {
+            "title": "Biology of Tendon Stem Cells and Tendon in Aging",
+            "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2019.01338/full",
+            "date": "2020-01-16",
+            "last_updated": "2025-04-27"
+        },
+        {
+            "title": "In Vitro Cellular Strain Models of Tendon Biology and ...",
+            "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2022.826748/full",
+            "date": "2022-02-15",
+            "last_updated": "2025-04-27"
+        },
+        {
+            "title": "Trends in Muscle and Tendon Molecular and Cell Biology",
+            "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2021.832613/pdf",
+            "date": null,
+            "last_updated": "2024-12-09"
+        },
+        {
+            "title": "Editorial: Trends in Muscle and Tendon Molecular and Cell ...",
+            "url": "https://www.frontiersin.org/articles/10.3389/fphys.2021.832613/full",
+            "date": "2022-02-03",
+            "last_updated": "2025-05-01"
+        }
+    ],
+    "object": "chat.completion",
+    "choices": [
+        {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+                "role": "assistant",
+                "content": "**Tendon Cell: Detailed Overview**\n\nTendon cells, primarily known as **tenocytes**, are specialized fibroblastic cells that populate the tendons\u2014dense, collagen-rich connective tissues that anchor muscle to bone and transmit mechanical force. The cell landscape of the tendon comprises two main cell types: differentiated fibroblastic tenocytes and a smaller population of **tendon stem/progenitor cells (TDSCs)**, both of which are critical for tissue homeostasis, adaptation, and repair.\n\n**Tenocyte Biology**\n\n- **Tenocytes** are elongated, spindle-shaped cells embedded in the highly aligned collagenous extracellular matrix (ECM) of tendon[3]. They maintain tendon structure by both synthesizing and degrading matrix components (primarily type I collagen) in response to mechanical force, a process governed by **mechanotransduction**[3]. Through mechanosensitive ion channels and cell-matrix interactions, tenocytes sense and adapt to the loading environment, modulating catabolic and anabolic responses essential for tendon health and repair[3].\n- **Cellular Functions**: Tenocytes regulate tendon homeostasis, mediate adaptation to exercise, and respond to injury through secretion of cytokines, growth factors, and matrix remodelling enzymes[3].\n- **Markers**: Common molecular markers include scleraxis (Scx), tenomodulin (Tnmd), and collagen type I (Col1a1).\n\n**Tendon Stem/Progenitor Cells (TDSCs)**\n\n- TDSCs are a distinct population with self-renewal and multilineage potential, contributing to tendon growth, maintenance, and repair, especially after injury[1]. They express both stemness markers (Oct-4, SSEA-1) and tendon-specific markers (Scx, Tnmd)[1].\n- **Aging and Niche Effects**: Aged TDSCs show diminished regenerative capacity, increased cellular senescence, and altered responses to environmental cues. Alterations in the tendon niche, such as increased oxidative stress and accumulation of advanced glycation end-products, further impact TDSC function[1].\n\n**Cellular Heterogeneity and Plasticity**\n\n- Recent lineage-tracing and single-cell studies indicate that the tendon cell population is more **heterogeneous** than previously recognized, with subpopulations varying depending on tendon location, developmental stage, injury status, and age[2]. Some cells may originate from perivascular or interstitial compartments, and their contributions to healing and fibrosis are under active investigation[2].\n\n**Response to Mechanical Stimuli**\n\n- Mechanical loading is a dominant regulator of both tenocyte and TDSC activity. Cyclic tensile strain can induce or preserve expression of tendon-specific genes and stimulate tenogenic differentiation[2]. The tendon\u2019s biomechanical environment, including tensile and shear forces, directs cellular behaviour and adaptation[2][3].\n- **Mechanotransduction**: This is mediated by specialized receptors (e.g., integrins) and ion channels (e.g., PIEZO1), initiating intracellular signalling cascades that affect gene expression and matrix turnover[3].\n\n**Pathology and Aging**\n\n- With aging or disease (e.g., diabetes, hormonal deficiency), tendon cells exhibit reduced proliferation, increased senescence, and impaired ECM remodelling. These intrinsic and niche-driven changes contribute to decreased tendon regenerative potential and increased risk of chronic degeneration[1].\n\n**References**\n- Lui, P.P.Y. (2020). Biology of Tendon Stem Cells and Tendon in Aging. Frontiers in Genetics, 10, Article 1338. DOI: 10.3389/fgene.2019.01338\n- Wu, S.Y., et al. (2022). In Vitro Cellular Strain Models of Tendon Biology and Healing: A Review of Current Progress and Future Directions. Frontiers in Bioengineering and Biotechnology, 10, Article 826748. DOI: 10.3389/fbioe.2022.826748\n- Marqueti, R.C., et al. (2022). Trends in Muscle and Tendon Molecular and Cell Biology. Frontiers in Physiology, 12, Article 832613. DOI: 10.3389/fphys.2021.832613"
+            },
+            "delta": {
+                "role": "assistant",
+                "content": ""
+            }
+        }
+    ]
+}

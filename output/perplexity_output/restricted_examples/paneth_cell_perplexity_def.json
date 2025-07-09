@@ -1,0 +1,65 @@
+{
+    "id": "e24c0507-5209-44e8-9292-92c277143b10",
+    "model": "sonar-pro",
+    "created": 1752054336,
+    "usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 787,
+        "total_tokens": 900,
+        "search_context_size": "low"
+    },
+    "citations": [
+        "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2023.1122258/full",
+        "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2020.00587/full",
+        "https://pubmed.ncbi.nlm.nih.gov/15703685/",
+        "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2020.00587/epub",
+        "https://pubmed.ncbi.nlm.nih.gov/9352884/"
+    ],
+    "search_results": [
+        {
+            "title": "From birth to death: The hardworking life of Paneth cell in ...",
+            "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2023.1122258/full",
+            "date": "2023-03-10",
+            "last_updated": "2025-04-27"
+        },
+        {
+            "title": "The Paneth Cell: The Curator and Defender of ...",
+            "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2020.00587/full",
+            "date": "2020-04-03",
+            "last_updated": "2025-04-22"
+        },
+        {
+            "title": "The Paneth cell and the innate immune response",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15703685/",
+            "date": "2004-11-01",
+            "last_updated": "2025-02-01"
+        },
+        {
+            "title": "Paneth Cell",
+            "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2020.00587/epub",
+            "date": "2020-04-03",
+            "last_updated": null
+        },
+        {
+            "title": "Paneth cells and innate immunity in the crypt ...",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9352884/",
+            "date": "1997-11-07",
+            "last_updated": "2025-07-07"
+        }
+    ],
+    "object": "chat.completion",
+    "choices": [
+        {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+                "role": "assistant",
+                "content": "**Paneth cells** are a specialized epithelial cell type found predominantly at the base of the crypts of Lieberk\u00fchn in the small intestine. They play essential roles in intestinal homeostasis, mucosal immunity, and support of the intestinal stem cell niche[1][2][3].\n\n### Morphology and Location\n- Paneth cells are characterized by their **eosinophilic cytoplasmic granules** located at their apical pole, rich in antimicrobial substances[1][3].\n- They are **situated at the base of small intestinal crypts**, interspersed among stem cells in both humans and mice[1][2].\n\n### Development and Differentiation\n- Their differentiation from intestinal stem cells is regulated primarily by the **Wnt, Notch, and BMP signaling pathways**[1][2].\n- Upon lineage commitment, they migrate downward and remain at the crypt base, where they exert their functions throughout their lifespan[1][2].\n\n### Functional Roles\n\n**1. Antimicrobial Defense:**\n- Paneth cells secrete **antimicrobial peptides**, including defensins (notably human \u03b1-defensins), lysozyme, phospholipase A2, and REG3\u03b3[1][3].\n- These secretions are **key mediators of innate immunity**, regulating the gut microbiota and protecting the intestinal mucosal barrier from pathogenic invasion[1][3].\n\n**2. Support of the Intestinal Stem Cell Niche:**\n- Paneth cells produce **growth factors** such as EGF (epidermal growth factor), Wnt3, and Notch ligands, which are crucial for the proliferation and maintenance of **LGR5+ intestinal stem cells**[1][2].\n- This supportive function establishes Paneth cells as \"nurse cells\" for stem cells, helping sustain tissue renewal and repair[2].\n\n**3. Regulation of Homeostasis and Apoptosis:**\n- Paneth cells aid in maintaining a sterile environment at the crypt base, participate in the clearance of apoptotic cells, and contribute to maintaining intestinal homeostasis[1].\n- They undergo **programmed cell death** (apoptosis, necroptosis) as part of normal tissue turnover or in response to injury[1][2].\n\n**4. Plasticity Under Injury:**\n- During intestinal injury, Paneth cells can exhibit **cellular plasticity**, dedifferentiating or acquiring stem cell-like features to assist in epithelial regeneration[1][2].\n\n### Clinical Relevance\n- **Dysfunction or depletion of Paneth cells** has been implicated in several diseases, including Crohn's disease, necrotizing enterocolitis, and potentially cystic fibrosis[3].\n- Their unique secretory activity and strategic positioning make them targets for enteric pathogens and modulators of disease pathogenesis[3].\n\n---\n\n## References\n\n1. Cui, C., (2023). From birth to death: The hardworking life of Paneth cell in the small intestine. Frontiers in Immunology, 14, 1122258. DOI: 10.3389/fimmu.2023.1122258\n\n2. Lueschow, S.R., & McElroy, S.J., (2020). The Paneth Cell: The Curator and Defender of the Immature Small Intestine. Frontiers in Immunology, 11, 587. DOI: 10.3389/fimmu.2020.00587\n\n3. Bevins, C.L., & Salzman, N.H., (2004). The Paneth cell and the innate immune response. Current Opinion in Gastroenterology, 20(6), 572\u2013580. DOI: 10.1097/00001574-200411000-00013"
+            },
+            "delta": {
+                "role": "assistant",
+                "content": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,329 @@
+---
+input_text: |-
+  Molecular Characterization of Astrocyte Precursor Cells in Glioblastoma: Insights from Gene Expression Profiling
+
+  The gene expression profile of astrocyte precursor cells within glioblastoma samples reveals a complex cellular state characterized by developmental plasticity, metabolic reprogramming, and adaptive responses to the tumor microenvironment. This analysis of ten enriched genes provides significant insights into the molecular mechanisms governing cellular survival, differentiation, and intercellular communication within the context of both normal astrocyte development and pathological transformation. The identified genes span diverse functional categories including cilia-mediated signaling, metabolic regulation, cell survival pathways, and neurodegenerative processes, suggesting that these astrocyte precursors exist in a highly dynamic state that bridges normal developmental programs with cancer-associated adaptations.
+  Cilia-Mediated Signaling and Cellular Organization
+  The presence of CFAP54 in this gene signature points to active cilia-mediated processes within these astrocyte precursor cells. CFAP54 is essential for proper ciliary motility and assembly of the central pair apparatus in motile cilia. While traditionally associated with primary ciliary dyskinesia when mutated, its expression in astrocyte precursors suggests these cells maintain active ciliary signaling pathways that are crucial for cellular communication and environmental sensing. The central pair apparatus plays a critical role in regulating proper ciliary function, and in the context of astrocyte precursors, this machinery likely facilitates mechanosensing and chemical gradient detection within the tumor microenvironment.
+  Cilia function extends beyond simple motility to encompass critical signaling pathways including Hedgehog, Wnt, and various growth factor cascades that are fundamental to neural development and stem cell maintenance. In astrocyte precursors, intact ciliary signaling may represent a retained developmental capacity that allows these cells to respond to morphogenetic cues and maintain their precursor identity. The expression of CFAP54 suggests that these cells have not fully committed to terminal differentiation and retain the molecular machinery necessary for dynamic responses to environmental signals through ciliary-mediated pathways.
+  Metabolic Reprogramming and Growth Factor Signaling
+  The enrichment of IGFBP7 reveals significant metabolic reprogramming within these astrocyte precursor cells. IGFBP7 fuels glycolytic metabolism by sustaining activation of the IGF1R-Akt-GLUT1 axis, which enhances energy metabolism and increases glucose uptake. This metabolic shift toward glycolysis is characteristic of both rapidly proliferating cells and cells adapting to hypoxic conditions commonly found in glioblastoma. The sustained activation of the IGF1R-PI3K-Akt pathway through IGFBP7 not only promotes glucose metabolism but also provides crucial pro-survival signals that may enable these precursor cells to persist in the harsh tumor microenvironment.
+  The metabolic flexibility conferred by IGFBP7 expression likely enables these astrocyte precursors to switch between oxidative phosphorylation and glycolysis depending on oxygen and nutrient availability. This adaptive capacity is particularly important in the context of glioblastoma, where regions of hypoxia and necrosis create metabolically challenging conditions. The ability to maintain high glucose uptake through GLUT1 upregulation ensures continued energy production even under stress conditions, supporting both cellular survival and potential proliferative capacity.
+  Pro-Survival Mechanisms and Apoptosis Resistance
+  The expression of VOPP1 indicates active pro-survival mechanisms operating within these astrocyte precursor cells. VOPP1 functions as a vesicular overexpressed pro-survival protein that physically interacts with the tumor suppressor WWOX, sequestering it in lysosomal compartments and inhibiting WWOX-mediated apoptosis. This interaction prevents WWOX from associating with pro-apoptotic proteins like p73α, effectively blocking programmed cell death pathways. In the context of astrocyte precursors, this mechanism may represent an adaptation that allows these cells to survive in the toxic environment of glioblastoma while maintaining their proliferative potential.
+  The pro-survival function of VOPP1 extends beyond simple apoptosis resistance to include enhancement of cellular transformation capacity. Studies have demonstrated that VOPP1 overexpression potentiates cellular transformation and enhances tumor growth in vivo. For astrocyte precursors expressing VOPP1, this suggests not only survival advantage but also potential for contributing to tumor progression through enhanced growth capacity and resistance to cell death signals that would normally eliminate aberrant cells.
+  Astrocyte Identity and Glymphatic Function
+  AQP4 expression provides crucial insights into the astrocytic identity and functional specialization of these precursor cells. AQP4 is a water channel protein that plays essential roles in astrocyte function, particularly in the glymphatic system responsible for brain fluid homeostasis and waste clearance. The polarized distribution of AQP4 is strongly associated with astrocyte phenotype, with A2 neuroprotective astrocytes exhibiting more evident AQP4 polarization compared to A1 neurotoxic phenotypes. The presence of AQP4 in these astrocyte precursors suggests they retain fundamental astrocytic characteristics and may contribute to fluid homeostasis within the tumor environment.
+  The glymphatic function mediated by AQP4 is particularly relevant in the context of glioblastoma, where impaired fluid dynamics and accumulation of toxic metabolites contribute to disease progression. Astrocyte precursors expressing AQP4 may serve a protective role by facilitating clearance of harmful substances and maintaining proper fluid balance. This function becomes especially important given that the glymphatic system is essential for clearing pathological proteins and maintaining brain homeostasis, processes that are typically disrupted in neurodegenerative conditions and brain tumors.
+  Hypoxia Response and Mitochondrial Function
+  LANCL2 expression indicates sophisticated cellular responses to hypoxic conditions within the tumor microenvironment. LANCL2, along with its partner LANCL1, controls mitochondrial function, cellular respiration, and responses to hypoxia through the AMPK/PGC-1α signaling axis. This pathway is crucial for maintaining cellular energy homeostasis under stress conditions and enables cells to adapt their metabolism in response to oxygen availability. The expression of LANCL2 suggests these astrocyte precursors have enhanced capacity to survive and function under the hypoxic conditions commonly found in glioblastoma.
+  The LANCL2-mediated pathway also regulates the expression of proteins involved in cytoskeletal organization, contractile functions, and ion channel activity, indicating that these astrocyte precursors maintain complex cellular machinery for responding to environmental challenges. The transcriptional control exerted through the ERRα/AMPK/PGC-1α axis enables coordinated responses that optimize both energy production and cellular structure for survival under adverse conditions. This adaptive capacity may be crucial for maintaining the precursor cell population within the metabolically challenging environment of glioblastoma.
+  Endoplasmic Reticulum Function and Protein Quality Control
+  The presence of RTN1 highlights the importance of endoplasmic reticulum (ER) function and protein quality control in these astrocyte precursor cells. RTN1 belongs to the reticulon family of ER-associated proteins with reticular distribution and has been shown to exert cancer-specific proapoptotic functions through interactions with specific proteins. Interestingly, RTN1 interacts with MANF (mesencephalic astrocyte-derived neurotrophic factor), and this interaction occurs within the ER compartment. The knockdown of RTN1 reduces MANF localization in the ER, suggesting important roles in ER protein organization and function.
+  In astrocyte precursors, RTN1 expression may indicate active ER stress responses and protein quality control mechanisms that are essential for maintaining cellular function under the proteotoxic stress conditions present in glioblastoma. The ER is particularly vulnerable to the hypoxic and nutrient-poor conditions found in tumors, and cells must maintain robust quality control systems to prevent protein aggregation and cellular dysfunction. The expression of RTN1 suggests these precursor cells have enhanced capacity to manage ER stress and maintain protein homeostasis.
+  Neurodegenerative Processes and Cellular Fate
+  The expression of MTRNR2L12 provides intriguing connections to neurodegenerative processes and cellular aging. This gene has been identified as a potential blood marker for early Alzheimer's disease-like dementia and is associated with cognitive deterioration. Its presence in astrocyte precursor cells within glioblastoma may indicate cellular stress responses that overlap with neurodegenerative pathways. This could reflect the challenging microenvironment of glioblastoma, which shares certain features with neurodegenerative conditions including inflammation, oxidative stress, and protein aggregation.
+  The expression of MTRNR2L12 in these precursor cells may also indicate a cellular state that bridges normal aging processes with pathological transformation. The gene's association with dementia suggests it may be involved in cellular stress responses, mitochondrial dysfunction, or other age-related processes that could influence the behavior and fate of astrocyte precursors within the tumor environment. This expression pattern may reflect the complex cellular adaptations required for survival in the glioblastoma microenvironment.
+  Cell-Cell Communication and Developmental Plasticity
+  The overall gene expression profile suggests these astrocyte precursor cells maintain significant developmental plasticity while adapting to the tumor microenvironment through multiple survival mechanisms. The combination of genes involved in cilia function (CFAP54), growth factor signaling (IGFBP7), survival pathways (VOPP1), astrocyte identity (AQP4), and stress responses (LANCL2, RTN1, MTRNR2L12) indicates these cells exist in a dynamic state that balances developmental potential with survival adaptations. This molecular signature suggests active cell-cell communication through multiple pathways including ciliary signaling, growth factor networks, and fluid homeostasis mechanisms.
+  The retention of developmental machinery alongside cancer-associated survival mechanisms positions these astrocyte precursors as potentially important mediators of tumor-host interactions. Their ability to maintain astrocytic functions like glymphatic activity while expressing pro-survival factors may enable them to serve dual roles as both tumor-supporting cells and tissue homeostasis maintainers. This functional duality could have significant implications for understanding glioblastoma biology and developing therapeutic strategies that target specific cellular populations within the tumor microenvironment.
+  Conclusion
+  The gene expression profile of astrocyte precursor cells in glioblastoma reveals a complex cellular state characterized by retained developmental plasticity, enhanced survival mechanisms, and adaptive responses to environmental stress. These cells appear to maintain fundamental astrocytic functions while acquiring pro-survival and metabolic adaptations that enable persistence in the tumor microenvironment. The molecular signature suggests active participation in multiple cellular processes including cilia-mediated signaling, metabolic reprogramming, ER stress responses, and glymphatic function. Understanding these cellular states and their interactions may provide valuable insights for developing targeted therapeutic approaches and better characterizing the cellular heterogeneity within glioblastoma tumors. The integration of developmental biology concepts with cancer biology perspectives reveals the sophisticated adaptive mechanisms employed by these precursor cells to navigate the complex challenges of the glioblastoma microenvironment.
+raw_completion_output: |-
+  biologicalprocesses: developmental plasticity; metabolic reprogramming; adaptive responses to the tumor microenvironment; cellular survival; differentiation; intercellular communication; cilia-mediated signaling; metabolic regulation; neurodegenerative processes; glycolytic metabolism; apoptosis resistance; fluid homeostasis; hypoxic responses; cellular respiration; ER stress responses; protein quality control; neurodegenerative processes; cellular aging; cell-cell communication; developmental plasticity  
+  cellularcomponents: cilia; central pair apparatus; ER compartment  
+  molecularfunctions: glycolytic metabolism; mechanosensing; chemical gradient detection; growth factor signaling; ion channel activity; protein quality control  
+  entities: CFAP54; IGFBP7; VOPP1; AQP4; LANCL2; RTN1; MANF; MTRNR2L12; WWOX; p73α
+prompt: |+
+  From the text below, extract the following entities in the following format:
+
+  biologicalprocesses: <A semi-colon separated list of biological processes, for example: nuclear axial expansion; intracellular transport; medial surface of mandible; ribosomal subunit export from nucleus; pole cell development>
+  cellularcomponents: <A semi-colon separated list of cellular components and structures, for example: tubulin complex; proteasome complex; cytoplasm; keratohyalin granule; nucleus>
+  molecularfunctions: <A semi-colon separated list of molecular functions, for example: catalytic activity; amine binding; peptide receptor activity; oxygen carrier activity; structural constituent of cytoskeleton>
+  entities: <semicolon-separated list of entitiess>
+
+
+  Text:
+  Molecular Characterization of Astrocyte Precursor Cells in Glioblastoma: Insights from Gene Expression Profiling
+
+  The gene expression profile of astrocyte precursor cells within glioblastoma samples reveals a complex cellular state characterized by developmental plasticity, metabolic reprogramming, and adaptive responses to the tumor microenvironment. This analysis of ten enriched genes provides significant insights into the molecular mechanisms governing cellular survival, differentiation, and intercellular communication within the context of both normal astrocyte development and pathological transformation. The identified genes span diverse functional categories including cilia-mediated signaling, metabolic regulation, cell survival pathways, and neurodegenerative processes, suggesting that these astrocyte precursors exist in a highly dynamic state that bridges normal developmental programs with cancer-associated adaptations.
+  Cilia-Mediated Signaling and Cellular Organization
+  The presence of CFAP54 in this gene signature points to active cilia-mediated processes within these astrocyte precursor cells. CFAP54 is essential for proper ciliary motility and assembly of the central pair apparatus in motile cilia. While traditionally associated with primary ciliary dyskinesia when mutated, its expression in astrocyte precursors suggests these cells maintain active ciliary signaling pathways that are crucial for cellular communication and environmental sensing. The central pair apparatus plays a critical role in regulating proper ciliary function, and in the context of astrocyte precursors, this machinery likely facilitates mechanosensing and chemical gradient detection within the tumor microenvironment.
+  Cilia function extends beyond simple motility to encompass critical signaling pathways including Hedgehog, Wnt, and various growth factor cascades that are fundamental to neural development and stem cell maintenance. In astrocyte precursors, intact ciliary signaling may represent a retained developmental capacity that allows these cells to respond to morphogenetic cues and maintain their precursor identity. The expression of CFAP54 suggests that these cells have not fully committed to terminal differentiation and retain the molecular machinery necessary for dynamic responses to environmental signals through ciliary-mediated pathways.
+  Metabolic Reprogramming and Growth Factor Signaling
+  The enrichment of IGFBP7 reveals significant metabolic reprogramming within these astrocyte precursor cells. IGFBP7 fuels glycolytic metabolism by sustaining activation of the IGF1R-Akt-GLUT1 axis, which enhances energy metabolism and increases glucose uptake. This metabolic shift toward glycolysis is characteristic of both rapidly proliferating cells and cells adapting to hypoxic conditions commonly found in glioblastoma. The sustained activation of the IGF1R-PI3K-Akt pathway through IGFBP7 not only promotes glucose metabolism but also provides crucial pro-survival signals that may enable these precursor cells to persist in the harsh tumor microenvironment.
+  The metabolic flexibility conferred by IGFBP7 expression likely enables these astrocyte precursors to switch between oxidative phosphorylation and glycolysis depending on oxygen and nutrient availability. This adaptive capacity is particularly important in the context of glioblastoma, where regions of hypoxia and necrosis create metabolically challenging conditions. The ability to maintain high glucose uptake through GLUT1 upregulation ensures continued energy production even under stress conditions, supporting both cellular survival and potential proliferative capacity.
+  Pro-Survival Mechanisms and Apoptosis Resistance
+  The expression of VOPP1 indicates active pro-survival mechanisms operating within these astrocyte precursor cells. VOPP1 functions as a vesicular overexpressed pro-survival protein that physically interacts with the tumor suppressor WWOX, sequestering it in lysosomal compartments and inhibiting WWOX-mediated apoptosis. This interaction prevents WWOX from associating with pro-apoptotic proteins like p73α, effectively blocking programmed cell death pathways. In the context of astrocyte precursors, this mechanism may represent an adaptation that allows these cells to survive in the toxic environment of glioblastoma while maintaining their proliferative potential.
+  The pro-survival function of VOPP1 extends beyond simple apoptosis resistance to include enhancement of cellular transformation capacity. Studies have demonstrated that VOPP1 overexpression potentiates cellular transformation and enhances tumor growth in vivo. For astrocyte precursors expressing VOPP1, this suggests not only survival advantage but also potential for contributing to tumor progression through enhanced growth capacity and resistance to cell death signals that would normally eliminate aberrant cells.
+  Astrocyte Identity and Glymphatic Function
+  AQP4 expression provides crucial insights into the astrocytic identity and functional specialization of these precursor cells. AQP4 is a water channel protein that plays essential roles in astrocyte function, particularly in the glymphatic system responsible for brain fluid homeostasis and waste clearance. The polarized distribution of AQP4 is strongly associated with astrocyte phenotype, with A2 neuroprotective astrocytes exhibiting more evident AQP4 polarization compared to A1 neurotoxic phenotypes. The presence of AQP4 in these astrocyte precursors suggests they retain fundamental astrocytic characteristics and may contribute to fluid homeostasis within the tumor environment.
+  The glymphatic function mediated by AQP4 is particularly relevant in the context of glioblastoma, where impaired fluid dynamics and accumulation of toxic metabolites contribute to disease progression. Astrocyte precursors expressing AQP4 may serve a protective role by facilitating clearance of harmful substances and maintaining proper fluid balance. This function becomes especially important given that the glymphatic system is essential for clearing pathological proteins and maintaining brain homeostasis, processes that are typically disrupted in neurodegenerative conditions and brain tumors.
+  Hypoxia Response and Mitochondrial Function
+  LANCL2 expression indicates sophisticated cellular responses to hypoxic conditions within the tumor microenvironment. LANCL2, along with its partner LANCL1, controls mitochondrial function, cellular respiration, and responses to hypoxia through the AMPK/PGC-1α signaling axis. This pathway is crucial for maintaining cellular energy homeostasis under stress conditions and enables cells to adapt their metabolism in response to oxygen availability. The expression of LANCL2 suggests these astrocyte precursors have enhanced capacity to survive and function under the hypoxic conditions commonly found in glioblastoma.
+  The LANCL2-mediated pathway also regulates the expression of proteins involved in cytoskeletal organization, contractile functions, and ion channel activity, indicating that these astrocyte precursors maintain complex cellular machinery for responding to environmental challenges. The transcriptional control exerted through the ERRα/AMPK/PGC-1α axis enables coordinated responses that optimize both energy production and cellular structure for survival under adverse conditions. This adaptive capacity may be crucial for maintaining the precursor cell population within the metabolically challenging environment of glioblastoma.
+  Endoplasmic Reticulum Function and Protein Quality Control
+  The presence of RTN1 highlights the importance of endoplasmic reticulum (ER) function and protein quality control in these astrocyte precursor cells. RTN1 belongs to the reticulon family of ER-associated proteins with reticular distribution and has been shown to exert cancer-specific proapoptotic functions through interactions with specific proteins. Interestingly, RTN1 interacts with MANF (mesencephalic astrocyte-derived neurotrophic factor), and this interaction occurs within the ER compartment. The knockdown of RTN1 reduces MANF localization in the ER, suggesting important roles in ER protein organization and function.
+  In astrocyte precursors, RTN1 expression may indicate active ER stress responses and protein quality control mechanisms that are essential for maintaining cellular function under the proteotoxic stress conditions present in glioblastoma. The ER is particularly vulnerable to the hypoxic and nutrient-poor conditions found in tumors, and cells must maintain robust quality control systems to prevent protein aggregation and cellular dysfunction. The expression of RTN1 suggests these precursor cells have enhanced capacity to manage ER stress and maintain protein homeostasis.
+  Neurodegenerative Processes and Cellular Fate
+  The expression of MTRNR2L12 provides intriguing connections to neurodegenerative processes and cellular aging. This gene has been identified as a potential blood marker for early Alzheimer's disease-like dementia and is associated with cognitive deterioration. Its presence in astrocyte precursor cells within glioblastoma may indicate cellular stress responses that overlap with neurodegenerative pathways. This could reflect the challenging microenvironment of glioblastoma, which shares certain features with neurodegenerative conditions including inflammation, oxidative stress, and protein aggregation.
+  The expression of MTRNR2L12 in these precursor cells may also indicate a cellular state that bridges normal aging processes with pathological transformation. The gene's association with dementia suggests it may be involved in cellular stress responses, mitochondrial dysfunction, or other age-related processes that could influence the behavior and fate of astrocyte precursors within the tumor environment. This expression pattern may reflect the complex cellular adaptations required for survival in the glioblastoma microenvironment.
+  Cell-Cell Communication and Developmental Plasticity
+  The overall gene expression profile suggests these astrocyte precursor cells maintain significant developmental plasticity while adapting to the tumor microenvironment through multiple survival mechanisms. The combination of genes involved in cilia function (CFAP54), growth factor signaling (IGFBP7), survival pathways (VOPP1), astrocyte identity (AQP4), and stress responses (LANCL2, RTN1, MTRNR2L12) indicates these cells exist in a dynamic state that balances developmental potential with survival adaptations. This molecular signature suggests active cell-cell communication through multiple pathways including ciliary signaling, growth factor networks, and fluid homeostasis mechanisms.
+  The retention of developmental machinery alongside cancer-associated survival mechanisms positions these astrocyte precursors as potentially important mediators of tumor-host interactions. Their ability to maintain astrocytic functions like glymphatic activity while expressing pro-survival factors may enable them to serve dual roles as both tumor-supporting cells and tissue homeostasis maintainers. This functional duality could have significant implications for understanding glioblastoma biology and developing therapeutic strategies that target specific cellular populations within the tumor microenvironment.
+  Conclusion
+  The gene expression profile of astrocyte precursor cells in glioblastoma reveals a complex cellular state characterized by retained developmental plasticity, enhanced survival mechanisms, and adaptive responses to environmental stress. These cells appear to maintain fundamental astrocytic functions while acquiring pro-survival and metabolic adaptations that enable persistence in the tumor microenvironment. The molecular signature suggests active participation in multiple cellular processes including cilia-mediated signaling, metabolic reprogramming, ER stress responses, and glymphatic function. Understanding these cellular states and their interactions may provide valuable insights for developing targeted therapeutic approaches and better characterizing the cellular heterogeneity within glioblastoma tumors. The integration of developmental biology concepts with cancer biology perspectives reveals the sophisticated adaptive mechanisms employed by these precursor cells to navigate the complex challenges of the glioblastoma microenvironment.
+
+  ===
+
+extracted_object:
+  entities:
+    - AUTO:CFAP54
+    - AUTO:IGFBP7
+    - AUTO:VOPP1
+    - AUTO:AQP4
+    - AUTO:LANCL2
+    - AUTO:RTN1
+    - AUTO:MANF
+    - AUTO:MTRNR2L12
+    - AUTO:WWOX
+    - AUTO:p73%CE%B1
+  biologicalprocesses:
+    - AUTO:developmental%20plasticity
+    - AUTO:metabolic%20reprogramming
+    - AUTO:adaptive%20responses%20to%20the%20tumor%20microenvironment
+    - AUTO:cellular%20survival
+    - AUTO:differentiation
+    - AUTO:intercellular%20communication
+    - AUTO:cilia-mediated%20signaling
+    - AUTO:metabolic%20regulation
+    - AUTO:neurodegenerative%20processes
+    - AUTO:glycolytic%20metabolism
+    - AUTO:apoptosis%20resistance
+    - AUTO:fluid%20homeostasis
+    - AUTO:hypoxic%20responses
+    - GO:0045333
+    - GO:0034976
+    - AUTO:protein%20quality%20control
+    - AUTO:neurodegenerative%20processes
+    - AUTO:cellular%20aging
+    - AUTO:cell-cell%20communication
+    - AUTO:developmental%20plasticity
+  cellularcomponents:
+    - GO:0005929
+    - AUTO:central%20pair%20apparatus
+    - AUTO:ER%20compartment
+  molecularfunctions:
+    - AUTO:glycolytic%20metabolism
+    - AUTO:mechanosensing
+    - AUTO:chemical%20gradient%20detection
+    - AUTO:growth%20factor%20signaling
+    - GO:0005216
+    - AUTO:protein%20quality%20control
+named_entities:
+  - id: AUTO:developmental%20plasticity
+    label: developmental plasticity
+    original_spans:
+      - 249:272
+      - 10011:10034
+      - 10134:10157
+      - 11488:11511
+  - id: AUTO:metabolic%20reprogramming
+    label: metabolic reprogramming
+    original_spans:
+      - 275:297
+      - 2370:2392
+      - 2467:2489
+      - 11887:11909
+  - id: AUTO:adaptive%20responses%20to%20the%20tumor%20microenvironment
+    label: adaptive responses to the tumor microenvironment
+    original_spans:
+      - 304:351
+  - id: AUTO:cellular%20survival
+    label: cellular survival
+    original_spans:
+      - 460:476
+      - 3611:3627
+  - id: AUTO:differentiation
+    label: differentiation
+    original_spans:
+      - 479:493
+      - 2227:2241
+  - id: AUTO:intercellular%20communication
+    label: intercellular communication
+    original_spans:
+      - 500:526
+  - id: AUTO:cilia-mediated%20signaling
+    label: cilia-mediated signaling
+    original_spans:
+      - 683:706
+      - 942:965
+      - 11861:11884
+  - id: AUTO:metabolic%20regulation
+    label: metabolic regulation
+    original_spans:
+      - 709:728
+  - id: AUTO:neurodegenerative%20processes
+    label: neurodegenerative processes
+    original_spans:
+      - 759:785
+      - 8792:8818
+      - 8901:8927
+  - id: AUTO:glycolytic%20metabolism
+    label: glycolytic metabolism
+    original_spans:
+      - 2544:2564
+  - id: AUTO:apoptosis%20resistance
+    label: apoptosis resistance
+    original_spans:
+      - 3695:3714
+      - 4442:4461
+  - id: AUTO:fluid%20homeostasis
+    label: fluid homeostasis
+    original_spans:
+      - 5216:5232
+      - 5587:5603
+      - 10699:10715
+  - id: AUTO:hypoxic%20responses
+    label: hypoxic responses
+  - id: GO:0045333
+    label: cellular respiration
+    original_spans:
+      - 6469:6488
+  - id: GO:0034976
+    label: ER stress responses
+    original_spans:
+      - 8277:8295
+      - 11912:11930
+  - id: AUTO:protein%20quality%20control
+    label: protein quality control
+    original_spans:
+      - 7562:7584
+      - 7676:7698
+      - 8301:8323
+  - id: AUTO:cellular%20aging
+    label: cellular aging
+    original_spans:
+      - 8933:8946
+  - id: AUTO:cell-cell%20communication
+    label: cell-cell communication
+    original_spans:
+      - 9983:10005
+      - 10592:10614
+  - id: GO:0005929
+    label: cilia
+    original_spans:
+      - 683:687
+      - 942:946
+      - 1056:1060
+      - 1152:1156
+      - 1222:1226
+      - 1273:1277
+      - 1382:1386
+      - 1550:1554
+      - 1728:1732
+      - 1977:1981
+      - 2343:2347
+      - 10279:10283
+      - 10652:10656
+      - 11861:11865
+  - id: AUTO:central%20pair%20apparatus
+    label: central pair apparatus
+    original_spans:
+      - 1189:1210
+      - 1484:1505
+  - id: AUTO:ER%20compartment
+    label: ER compartment
+    original_spans:
+      - 8073:8086
+  - id: AUTO:mechanosensing
+    label: mechanosensing
+    original_spans:
+      - 1646:1659
+  - id: AUTO:chemical%20gradient%20detection
+    label: chemical gradient detection
+    original_spans:
+      - 1665:1691
+  - id: AUTO:growth%20factor%20signaling
+    label: growth factor signaling
+    original_spans:
+      - 2398:2420
+      - 10304:10326
+  - id: GO:0005216
+    label: ion channel activity
+    original_spans:
+      - 7033:7052
+  - id: AUTO:CFAP54
+    label: CFAP54
+    original_spans:
+      - 1009:1014
+      - 1121:1126
+      - 2157:2162
+      - 10295:10300
+  - id: AUTO:IGFBP7
+    label: IGFBP7
+    original_spans:
+      - 2440:2445
+      - 2531:2536
+      - 2912:2917
+      - 3128:3133
+      - 10329:10334
+  - id: AUTO:VOPP1
+    label: VOPP1
+    original_spans:
+      - 3734:3738
+      - 3831:3835
+      - 4414:4418
+      - 4554:4558
+      - 4682:4686
+      - 10357:10361
+  - id: AUTO:AQP4
+    label: AQP4
+    original_spans:
+      - 4947:4950
+      - 5074:5077
+      - 5285:5288
+      - 5398:5401
+      - 5470:5473
+      - 5671:5674
+      - 5868:5871
+      - 10385:10388
+  - id: AUTO:LANCL2
+    label: LANCL2
+    original_spans:
+      - 6279:6284
+      - 6397:6402
+      - 6746:6751
+      - 6901:6906
+      - 10414:10419
+  - id: AUTO:RTN1
+    label: RTN1
+    original_spans:
+      - 7602:7605
+      - 7736:7739
+      - 7954:7957
+      - 8106:8109
+      - 8241:8244
+      - 8679:8682
+      - 10422:10425
+  - id: AUTO:MANF
+    label: MANF
+    original_spans:
+      - 7974:7977
+      - 8119:8122
+  - id: AUTO:MTRNR2L12
+    label: MTRNR2L12
+    original_spans:
+      - 8856:8864
+      - 9464:9472
+      - 10428:10436
+  - id: AUTO:WWOX
+    label: WWOX
+    original_spans:
+      - 3949:3952
+      - 4012:4015
+      - 4063:4066
+  - id: AUTO:p73%CE%B1
+    label: p73α
+    original_spans:
+      - 4118:4121

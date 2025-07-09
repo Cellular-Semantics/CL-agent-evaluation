@@ -1,0 +1,65 @@
+{
+    "id": "6238837d-c80e-4351-b28f-575537aa2f81",
+    "model": "sonar-pro",
+    "created": 1752053421,
+    "usage": {
+        "prompt_tokens": 20,
+        "completion_tokens": 450,
+        "total_tokens": 470,
+        "search_context_size": "low"
+    },
+    "citations": [
+        "https://en.wikipedia.org/wiki/Paneth_cell",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5696613/",
+        "https://vivo.colostate.edu/hbooks/pathphys/digestion/smallgut/paneth.html",
+        "https://www.mdpi.com/2073-4409/13/17/1435",
+        "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2020.00587/full"
+    ],
+    "search_results": [
+        {
+            "title": "Paneth cell",
+            "url": "https://en.wikipedia.org/wiki/Paneth_cell",
+            "date": "2006-03-22",
+            "last_updated": "2025-06-10"
+        },
+        {
+            "title": "Paneth cells in intestinal physiology and pathophysiology - PMC",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5696613/",
+            "date": "2017-11-15",
+            "last_updated": "2025-07-09"
+        },
+        {
+            "title": "Paneth Cells",
+            "url": "https://vivo.colostate.edu/hbooks/pathphys/digestion/smallgut/paneth.html",
+            "date": "2018-01-01",
+            "last_updated": "2025-05-15"
+        },
+        {
+            "title": "Identification and Characterization of Multiple Paneth Cell Types in ...",
+            "url": "https://www.mdpi.com/2073-4409/13/17/1435",
+            "date": null,
+            "last_updated": null
+        },
+        {
+            "title": "The Paneth Cell: The Curator and Defender of ...",
+            "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2020.00587/full",
+            "date": "2020-04-03",
+            "last_updated": "2025-04-22"
+        }
+    ],
+    "object": "chat.completion",
+    "choices": [
+        {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+                "role": "assistant",
+                "content": "**Paneth cells** are highly specialized secretory epithelial cells found at the base of the **crypts of Lieberk\u00fchn** in the small intestine, positioned adjacent to **intestinal stem cells**[2][5]. Their primary role is to maintain intestinal health by supporting host defense and modulating the gut environment[2][3][5].\n\n**Key features and functions:**\n\n- **Antimicrobial Defense:**  \n  Paneth cells secrete a range of **antimicrobial peptides and proteins**, most notably **\u03b1-defensins (cryptdins)**, **lysozyme**, and **phospholipase A2**[3]. These molecules disrupt bacterial membranes and play a crucial role in protecting the gut from pathogenic microbes while maintaining the balance of the normal microbiota[1][3].\n  \n- **Support of Stem Cells:**  \n  By residing next to intestinal stem cells in the crypts, Paneth cells provide **niche signals** that are essential for the maintenance, protection, and proper functioning of these stem cells, thus supporting **epithelial renewal and repair**[1][2][3].\n\n- **Immune Modulation:**  \n  Paneth cells act as a **physical and immune barrier**, sensing bacteria through **toll-like receptors (TLRs)**, especially TLR9, and secreting antimicrobials in response to bacterial products or during inflammation[1]. This contributes to the regulation of immune responses and homeostasis in the gut.\n\n- **Response to Injury:**  \n  Beyond their secretory function, Paneth cells can sometimes switch to a stem cell-like, proliferative phenotype to assist in **epithelial repair** following injury[3].\n\n**Clinical significance:**\n\n- Disorders of Paneth cell function or loss of these cells have been linked to diseases such as **Crohn\u2019s disease** and **necrotizing enterocolitis**, highlighting their essential role in gut health and disease pathogenesis[2][5].\n\nIn summary, **Paneth cells** are critical for **intestinal immunity**, the **maintenance of the stem cell niche**, and the overall **homeostasis** of the intestinal epithelium[2][3][5]."
+            },
+            "delta": {
+                "role": "assistant",
+                "content": ""
+            }
+        }
+    ]
+}
