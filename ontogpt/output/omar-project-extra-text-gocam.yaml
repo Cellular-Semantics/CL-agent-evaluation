@@ -1,0 +1,429 @@
+---
+input_text: |-
+  The gene expression profile of astrocyte precursor cells in glioblastoma reveals involvement in several key biological processes. For each process, we identify additional genes required for functionality, noting cases where multiple genes can substitute.
+  Cilia-Mediated Signaling
+  This process involves Hedgehog pathway activation and environmental sensing via primary cilia. Beyond CFAP54, essential genes include:
+  IFT88 and IFT20: Required for intraflagellar transport and cilia assembly.
+  δ-tubulin and ε-tubulin: Form a complex necessary for centriole maintenance.
+  KIF3A: Kinesin motor protein for anterograde ciliary transport.
+  Substitutes: Multiple tubulin isoforms (e.g., β-tubulin) can compensate for structural roles.
+  Metabolic Reprogramming (Glycolysis)
+  Characterized by Warburg effect and hypoxia adaptation. Beyond IGFBP7, critical genes are:
+  HIF-1α: Master regulator of hypoxia response.
+  PFK-1 and LDH-A: Key glycolytic enzymes.
+  PKM2: Pyruvate kinase isoform regulating glycolytic flux.
+  Substitutes: GLUT1/GLUT3 transporters interchangeably facilitate glucose uptake.
+  Pro-Survival Mechanisms
+  Focused on apoptosis resistance. Beyond VOPP1, required genes include:
+  BCL2 and BCL-XL: Anti-apoptotic proteins inhibiting mitochondrial permeabilization.
+  WWOX: Tumor suppressor targeted by VOPP1.
+  Substitutes: Multiple BCL2 family members (e.g., MCL1) provide functional redundancy.
+  Astrocyte Function (Glymphatic System)
+  Involves water homeostasis and waste clearance. Beyond AQP4, essential genes are:
+  TRPV4: Ion channel coordinating with AQP4 in volume regulation.
+  KCC1 and ClC2: Ion transporters maintaining osmotic balance.
+  Dystroglycan complex: Anchors AQP4 to astrocyte endfeet.
+  Hypoxia Response and Mitochondrial Biogenesis
+  Centers on oxygen sensing and energy adaptation. Beyond LANCL2, key genes include:
+  AMPK and PGC-1α: Regulators of mitochondrial biogenesis.
+  HIF-1α: Activates hypoxia-response genes.
+  Substitutes: HIF-2α can partially compensate for HIF-1α functions.
+  Endoplasmic Reticulum Stress Response
+  Manages protein folding and lipid metabolism. Beyond RTN1, required genes are:
+  IRE1α: UPR sensor activating XBP1 splicing.
+  MANF: ER-resident chaperone interacting with RTN1.
+  Substitutes: PERK and ATF6 UPR branches provide parallel stress responses.
+  Neurodegenerative Processes
+  Links to senescence and neuronal dysfunction. Beyond MTRNR2L12, critical genes include:
+  p16 and p21: Senescence effectors inducing cell-cycle arrest.
+  TDP-43: RNA-binding protein regulating cryptic exon splicing.
+  Substitutes: p15 and p27 can partially replace p16/p21 in cell-cycle control.
+raw_completion_output: |-
+  genes: CFAP54;IFT88;IFT20;δ-tubulin;ε-tubulin;KIF3A;β-tubulin;IGFBP7;HIF-1α;PFK-1;LDH-A;PKM2;GLUT1;GLUT3;VOPP1;BCL2;BCL-XL;WWOX;MCL1;AQP4;TRPV4;KCC1;ClC2;LANCL2;AMPK;PGC-1α;HIF-2α;RTN1;IRE1α;MANF;PERK;ATF6;MTRNR2L12;p16;p21;TDP-43;p15;p27
+  organisms: 
+  gene_organisms: 
+  activities: intraflagellar transport;ciliary assembly;centriole maintenance;anterograde ciliary transport;hypoxia response;glycolytic flux;glucose uptake;mitochondrial permeabilization;water homeostasis;waste clearance;volume regulation;osmotic balance;oxygen sensing;energy adaptation;protein folding;lipid metabolism;XBP1 splicing;ER chaperone activity;cell-cycle arrest;cryptic exon splicing
+  gene_functions: IFT88 * intraflagellar transport;IFT20 * intraflagellar transport;δ-tubulin * centriole maintenance;ε-tubulin * centriole maintenance;KIF3A * anterograde ciliary transport;HIF-1α * hypoxia response;PFK-1 * glycolytic flux;LDH-A * glycolytic flux;PKM2 * glycolytic flux;GLUT1 * glucose uptake;GLUT3 * glucose uptake;BCL2 * mitochondrial permeabilization;BCL-XL * mitochondrial permeabilization;AQP4 * water homeostasis;AQP4 * waste clearance;TRPV4 * volume regulation;KCC1 * osmotic balance;ClC2 * osmotic balance;AMPK * mitochondrial biogenesis;PGC-1α * mitochondrial biogenesis;IRE1α * XBP1 splicing;MANF * ER chaperone activity;p16 * cell-cycle arrest;p21 * cell-cycle arrest;TDP-43 * cryptic exon splicing
+  cellular_processes: cilia-mediated signaling;metabolic reprogramming;pro-survival mechanisms;astrocyte function;hypoxia response;mitochondrial biogenesis;endoplasmic reticulum stress response;neurodegenerative processes
+  pathways: Hedgehog pathway;glymphatic system;UPR
+  gene_gene_interactions: 
+  gene_localizations: 
+prompt: |+
+  Split the following piece of text into fields in the following format:
+
+  gene: <the name of the gene in the pair. This comes first.>
+  molecular_activity: <the name of the molecular function in the pair. This comes second. May be a GO term.>
+
+
+  Text:
+  TDP-43  cryptic exon splicing
+
+  ===
+
+extracted_object:
+  genes:
+    - HGNC:26456
+    - HGNC:20606
+    - HGNC:30989
+    - HGNC:16811
+    - HGNC:20775
+    - HGNC:6319
+    - AUTO:%CE%B2-tubulin
+    - HGNC:5476
+    - HGNC:4910
+    - HGNC:8877
+    - HGNC:6535
+    - HGNC:9021
+    - HGNC:11005
+    - HGNC:11007
+    - HGNC:34518
+    - HGNC:990
+    - HGNC:992
+    - HGNC:12799
+    - HGNC:6943
+    - HGNC:637
+    - HGNC:18083
+    - HGNC:10913
+    - HGNC:2020
+    - HGNC:6509
+    - HGNC:9377
+    - HGNC:9237
+    - HGNC:3374
+    - HGNC:10467
+    - HGNC:3449
+    - HGNC:15461
+    - HGNC:3255
+    - HGNC:791
+    - HGNC:37169
+    - HGNC:1787
+    - HGNC:1784
+    - HGNC:11571
+    - HGNC:14484
+    - HGNC:1785
+  gene_functions:
+    - gene: HGNC:20606
+      molecular_activity: GO:0035735
+    - gene: HGNC:30989
+      molecular_activity: GO:0035735
+    - gene: HGNC:16811
+      molecular_activity: AUTO:centriole%20maintenance
+    - gene: HGNC:20775
+      molecular_activity: AUTO:centriole%20maintenance
+    - gene: HGNC:6319
+      molecular_activity: AUTO:anterograde%20ciliary%20transport
+    - gene: HGNC:4910
+      molecular_activity: AUTO:hypoxia%20response
+    - gene: HGNC:8877
+      molecular_activity: AUTO:glycolytic%20flux
+    - gene: HGNC:6535
+      molecular_activity: AUTO:glycolytic%20flux
+    - gene: HGNC:9021
+      molecular_activity: AUTO:glycolytic%20flux
+    - gene: HGNC:11005
+      molecular_activity: GO:0046323
+    - gene: HGNC:11007
+      molecular_activity: GO:0046323
+    - gene: HGNC:990
+      molecular_activity: AUTO:mitochondrial%20permeabilization
+    - gene: HGNC:992
+      molecular_activity: AUTO:mitochondrial%20permeabilization
+    - gene: HGNC:637
+      molecular_activity: AUTO:water%20homeostasis
+    - gene: HGNC:637
+      molecular_activity: AUTO:waste%20clearance
+    - gene: HGNC:18083
+      molecular_activity: AUTO:volume%20regulation
+    - gene: HGNC:10913
+      molecular_activity: AUTO:osmotic%20balance
+    - gene: HGNC:2020
+      molecular_activity: AUTO:osmotic%20balance
+    - gene: HGNC:9377
+      molecular_activity: GO:0007005
+    - gene: HGNC:9237
+      molecular_activity: GO:0007005
+    - gene: HGNC:3449
+      molecular_activity: AUTO:XBP1%20splicing
+    - gene: HGNC:15461
+      molecular_activity: AUTO:ER%20chaperone%20activity
+    - gene: HGNC:1787
+      molecular_activity: AUTO:cell-cycle%20arrest
+    - gene: HGNC:1784
+      molecular_activity: AUTO:cell-cycle%20arrest
+    - gene: HGNC:11571
+      molecular_activity: AUTO:cryptic%20exon%20splicing
+  cellular_processes:
+    - AUTO:cilia-mediated%20signaling
+    - AUTO:metabolic%20reprogramming
+    - AUTO:pro-survival%20mechanisms
+    - AUTO:astrocyte%20function
+    - AUTO:hypoxia%20response
+    - GO:0007005
+    - AUTO:endoplasmic%20reticulum%20stress%20response
+    - AUTO:neurodegenerative%20processes
+  pathways:
+    - AUTO:Hedgehog%20pathway
+    - AUTO:glymphatic%20system
+    - AUTO:UPR
+named_entities:
+  - id: HGNC:26456
+    label: CFAP54
+    original_spans:
+      - 382:387
+  - id: HGNC:20606
+    label: IFT88
+    original_spans:
+      - 415:419
+  - id: HGNC:30989
+    label: IFT20
+    original_spans:
+      - 425:429
+  - id: HGNC:16811
+    label: δ-tubulin
+    original_spans:
+      - 490:498
+  - id: HGNC:20775
+    label: ε-tubulin
+    original_spans:
+      - 504:512
+  - id: HGNC:6319
+    label: KIF3A
+    original_spans:
+      - 567:571
+  - id: AUTO:%CE%B2-tubulin
+    label: β-tubulin
+    original_spans:
+      - 677:685
+  - id: HGNC:5476
+    label: IGFBP7
+    original_spans:
+      - 825:830
+  - id: HGNC:4910
+    label: HIF-1α
+    original_spans:
+      - 853:858
+      - 1875:1880
+      - 1966:1971
+  - id: HGNC:8877
+    label: PFK-1
+    original_spans:
+      - 899:903
+  - id: HGNC:6535
+    label: LDH-A
+    original_spans:
+      - 909:913
+  - id: HGNC:9021
+    label: PKM2
+    original_spans:
+      - 940:943
+  - id: HGNC:11005
+    label: GLUT1
+    original_spans:
+      - 1011:1015
+  - id: HGNC:11007
+    label: GLUT3
+    original_spans:
+      - 1017:1021
+  - id: HGNC:34518
+    label: VOPP1
+    original_spans:
+      - 1143:1147
+      - 1293:1297
+  - id: HGNC:990
+    label: BCL2
+    original_spans:
+      - 1174:1177
+      - 1322:1325
+  - id: HGNC:992
+    label: BCL-XL
+    original_spans:
+      - 1183:1188
+  - id: HGNC:12799
+    label: WWOX
+    original_spans:
+      - 1258:1261
+  - id: HGNC:6943
+    label: MCL1
+    original_spans:
+      - 1349:1352
+  - id: HGNC:637
+    label: AQP4
+    original_spans:
+      - 1480:1483
+      - 1544:1547
+      - 1662:1665
+  - id: HGNC:18083
+    label: TRPV4
+    original_spans:
+      - 1507:1511
+  - id: HGNC:10913
+    label: KCC1
+    original_spans:
+      - 1571:1574
+  - id: HGNC:2020
+    label: ClC2
+    original_spans:
+      - 1580:1583
+  - id: HGNC:6509
+    label: LANCL2
+    original_spans:
+      - 1791:1796
+  - id: HGNC:9377
+    label: AMPK
+    original_spans:
+      - 1818:1821
+  - id: HGNC:9237
+    label: PGC-1α
+    original_spans:
+      - 1827:1832
+  - id: HGNC:3374
+    label: HIF-2α
+    original_spans:
+      - 1930:1935
+  - id: HGNC:10467
+    label: RTN1
+    original_spans:
+      - 2075:2078
+      - 2190:2193
+  - id: HGNC:3449
+    label: IRE1α
+    original_spans:
+      - 2101:2105
+  - id: HGNC:15461
+    label: MANF
+    original_spans:
+      - 2145:2148
+  - id: HGNC:3255
+    label: PERK
+    original_spans:
+      - 2209:2212
+  - id: HGNC:791
+    label: ATF6
+    original_spans:
+      - 2218:2221
+  - id: HGNC:37169
+    label: MTRNR2L12
+    original_spans:
+      - 2352:2360
+  - id: HGNC:1787
+    label: p16
+    original_spans:
+      - 2387:2389
+      - 2558:2560
+  - id: HGNC:1784
+    label: p21
+    original_spans:
+      - 2395:2397
+      - 2562:2564
+  - id: HGNC:11571
+    label: TDP-43
+    original_spans:
+      - 2449:2454
+  - id: HGNC:14484
+    label: p15
+    original_spans:
+      - 2524:2526
+  - id: HGNC:1785
+    label: p27
+    original_spans:
+      - 2532:2534
+  - id: GO:0035735
+    label: intraflagellar transport
+    original_spans:
+      - 445:468
+  - id: AUTO:centriole%20maintenance
+    label: centriole maintenance
+    original_spans:
+      - 544:564
+  - id: AUTO:anterograde%20ciliary%20transport
+    label: anterograde ciliary transport
+    original_spans:
+      - 600:628
+  - id: AUTO:hypoxia%20response
+    label: hypoxia response
+    original_spans:
+      - 881:896
+      - 1689:1704
+  - id: AUTO:glycolytic%20flux
+    label: glycolytic flux
+    original_spans:
+      - 981:995
+  - id: GO:0046323
+    label: glucose uptake
+    original_spans:
+      - 1063:1076
+  - id: AUTO:mitochondrial%20permeabilization
+    label: mitochondrial permeabilization
+    original_spans:
+      - 1226:1255
+  - id: AUTO:water%20homeostasis
+    label: water homeostasis
+    original_spans:
+      - 1434:1450
+  - id: AUTO:waste%20clearance
+    label: waste clearance
+    original_spans:
+      - 1456:1470
+  - id: AUTO:volume%20regulation
+    label: volume regulation
+    original_spans:
+      - 1552:1568
+  - id: AUTO:osmotic%20balance
+    label: osmotic balance
+    original_spans:
+      - 1615:1629
+  - id: GO:0007005
+    label: mitochondrial biogenesis
+    original_spans:
+      - 1710:1733
+      - 1849:1872
+  - id: AUTO:XBP1%20splicing
+    label: XBP1 splicing
+    original_spans:
+      - 2130:2142
+  - id: AUTO:ER%20chaperone%20activity
+    label: ER chaperone activity
+  - id: AUTO:cell-cycle%20arrest
+    label: cell-cycle arrest
+    original_spans:
+      - 2430:2446
+  - id: AUTO:cryptic%20exon%20splicing
+    label: cryptic exon splicing
+    original_spans:
+      - 2488:2508
+  - id: AUTO:cilia-mediated%20signaling
+    label: cilia-mediated signaling
+    original_spans:
+      - 255:278
+  - id: AUTO:metabolic%20reprogramming
+    label: metabolic reprogramming
+    original_spans:
+      - 725:747
+  - id: AUTO:pro-survival%20mechanisms
+    label: pro-survival mechanisms
+    original_spans:
+      - 1079:1101
+  - id: AUTO:astrocyte%20function
+    label: astrocyte function
+    original_spans:
+      - 1386:1403
+  - id: AUTO:endoplasmic%20reticulum%20stress%20response
+    label: endoplasmic reticulum stress response
+    original_spans:
+      - 1984:2020
+  - id: AUTO:neurodegenerative%20processes
+    label: neurodegenerative processes
+    original_spans:
+      - 2271:2297
+  - id: AUTO:Hedgehog%20pathway
+    label: Hedgehog pathway
+    original_spans:
+      - 302:317
+  - id: AUTO:glymphatic%20system
+    label: glymphatic system
+    original_spans:
+      - 1406:1422
+  - id: AUTO:UPR
+    label: UPR
+    original_spans:
+      - 2108:2110
+      - 2223:2225
